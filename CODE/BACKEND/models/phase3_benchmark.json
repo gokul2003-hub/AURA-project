@@ -1,0 +1,1567 @@
+{
+  "generated_at": "2026-10-10T10:52:50+00:00",
+  "model": {
+    "model_id": "Horizon-Labs/multilingual-toxicity-small",
+    "sweep_range": [
+      0.05,
+      0.9,
+      0.05
+    ],
+    "fpr_cap": 0.15,
+    "selection_rule": "max toxic F1 with val FPR <= cap (tie-break higher threshold); validation only"
+  },
+  "phase2_thresholds": {
+    "en": 0.55,
+    "ta": 0.4,
+    "ta-Latn": 0.3,
+    "hi": 0.35,
+    "bn": 0.3,
+    "ur": 0.4
+  },
+  "groups": {
+    "en": {
+      "status": "evaluated",
+      "val_rows": 120,
+      "test_rows": 180,
+      "val_positives": 60,
+      "test_positives": 90,
+      "test_negatives": 90,
+      "validation": {
+        "threshold": 0.55,
+        "rule": "max toxic F1 with val FPR <= 0.15",
+        "toxic_f1": 0.9402,
+        "toxic_recall": 0.9167,
+        "toxic_precision": 0.9649,
+        "fpr": 0.0333,
+        "latency_ms_per_text": 490.72
+      },
+      "test_model": {
+        "n": 180,
+        "positives": 90,
+        "negatives": 90,
+        "accuracy": 0.95,
+        "toxic_precision": 0.988,
+        "toxic_recall": 0.9111,
+        "toxic_f1": 0.948,
+        "macro_f1": 0.9499,
+        "fpr": 0.0111,
+        "confusion_matrix": {
+          "labels": [
+            "non_toxic",
+            "toxic"
+          ],
+          "matrix": [
+            [
+              89,
+              1
+            ],
+            [
+              8,
+              82
+            ]
+          ]
+        },
+        "roc_auc": 0.9888,
+        "pr_auc": 0.9901,
+        "latency_ms_per_text": 147.07,
+        "threshold_used": 0.55
+      },
+      "test_legacy": {
+        "n": 180,
+        "positives": 90,
+        "negatives": 90,
+        "accuracy": 0.6778,
+        "toxic_precision": 0.9444,
+        "toxic_recall": 0.3778,
+        "toxic_f1": 0.5397,
+        "macro_f1": 0.6459,
+        "fpr": 0.0222,
+        "confusion_matrix": {
+          "labels": [
+            "non_toxic",
+            "toxic"
+          ],
+          "matrix": [
+            [
+              88,
+              2
+            ],
+            [
+              56,
+              34
+            ]
+          ]
+        },
+        "roc_auc": 0.7073,
+        "pr_auc": 0.6893,
+        "latency_ms_per_text": 9.68
+      },
+      "threshold_drift": {
+        "val_selected_threshold": 0.55,
+        "test_optimal_threshold": 0.55,
+        "test_fpr_at_val_threshold": 0.0111,
+        "test_fpr_cap": 0.15,
+        "test_fpr_exceeds_cap": false,
+        "test_f1_at_own_optimum": 0.948,
+        "test_f1_at_val_threshold": 0.948
+      },
+      "phase2_threshold": 0.55,
+      "validation_sweep": {
+        "0.05": {
+          "toxic_f1": 0.7317,
+          "toxic_recall": 1.0,
+          "toxic_precision": 0.5769,
+          "fpr": 0.7333,
+          "accuracy": 0.6333
+        },
+        "0.1": {
+          "toxic_f1": 0.7792,
+          "toxic_recall": 1.0,
+          "toxic_precision": 0.6383,
+          "fpr": 0.5667,
+          "accuracy": 0.7167
+        },
+        "0.15": {
+          "toxic_f1": 0.8108,
+          "toxic_recall": 1.0,
+          "toxic_precision": 0.6818,
+          "fpr": 0.4667,
+          "accuracy": 0.7667
+        },
+        "0.2": {
+          "toxic_f1": 0.8333,
+          "toxic_recall": 1.0,
+          "toxic_precision": 0.7143,
+          "fpr": 0.4,
+          "accuracy": 0.8
+        },
+        "0.25": {
+          "toxic_f1": 0.8633,
+          "toxic_recall": 1.0,
+          "toxic_precision": 0.7595,
+          "fpr": 0.3167,
+          "accuracy": 0.8417
+        },
+        "0.3": {
+          "toxic_f1": 0.8889,
+          "toxic_recall": 1.0,
+          "toxic_precision": 0.8,
+          "fpr": 0.25,
+          "accuracy": 0.875
+        },
+        "0.35": {
+          "toxic_f1": 0.9023,
+          "toxic_recall": 1.0,
+          "toxic_precision": 0.8219,
+          "fpr": 0.2167,
+          "accuracy": 0.8917
+        },
+        "0.4": {
+          "toxic_f1": 0.9091,
+          "toxic_recall": 1.0,
+          "toxic_precision": 0.8333,
+          "fpr": 0.2,
+          "accuracy": 0.9
+        },
+        "0.45": {
+          "toxic_f1": 0.912,
+          "toxic_recall": 0.95,
+          "toxic_precision": 0.8769,
+          "fpr": 0.1333,
+          "accuracy": 0.9083
+        },
+        "0.5": {
+          "toxic_f1": 0.918,
+          "toxic_recall": 0.9333,
+          "toxic_precision": 0.9032,
+          "fpr": 0.1,
+          "accuracy": 0.9167
+        },
+        "0.55": {
+          "toxic_f1": 0.9402,
+          "toxic_recall": 0.9167,
+          "toxic_precision": 0.9649,
+          "fpr": 0.0333,
+          "accuracy": 0.9417
+        },
+        "0.6": {
+          "toxic_f1": 0.9286,
+          "toxic_recall": 0.8667,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.9333
+        },
+        "0.65": {
+          "toxic_f1": 0.8785,
+          "toxic_recall": 0.7833,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.8917
+        },
+        "0.7": {
+          "toxic_f1": 0.8235,
+          "toxic_recall": 0.7,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.85
+        },
+        "0.75": {
+          "toxic_f1": 0.75,
+          "toxic_recall": 0.6,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.8
+        },
+        "0.8": {
+          "toxic_f1": 0.7097,
+          "toxic_recall": 0.55,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.775
+        },
+        "0.85": {
+          "toxic_f1": 0.5366,
+          "toxic_recall": 0.3667,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.6833
+        },
+        "0.9": {
+          "toxic_f1": 0.3562,
+          "toxic_recall": 0.2167,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.6083
+        }
+      },
+      "delta_toxic_f1_vs_phase2_threshold": 0.0
+    },
+    "ta": {
+      "status": "evaluated",
+      "val_rows": 120,
+      "test_rows": 180,
+      "val_positives": 60,
+      "test_positives": 90,
+      "test_negatives": 90,
+      "validation": {
+        "threshold": 0.4,
+        "rule": "max toxic F1 with val FPR <= 0.15",
+        "toxic_f1": 0.6122,
+        "toxic_recall": 0.5,
+        "toxic_precision": 0.7895,
+        "fpr": 0.1333,
+        "latency_ms_per_text": 477.08
+      },
+      "test_model": {
+        "n": 180,
+        "positives": 90,
+        "negatives": 90,
+        "accuracy": 0.6333,
+        "toxic_precision": 0.74,
+        "toxic_recall": 0.4111,
+        "toxic_f1": 0.5286,
+        "macro_f1": 0.6143,
+        "fpr": 0.1444,
+        "confusion_matrix": {
+          "labels": [
+            "non_toxic",
+            "toxic"
+          ],
+          "matrix": [
+            [
+              77,
+              13
+            ],
+            [
+              53,
+              37
+            ]
+          ]
+        },
+        "roc_auc": 0.7277,
+        "pr_auc": 0.7465,
+        "latency_ms_per_text": 530.14,
+        "threshold_used": 0.4
+      },
+      "test_legacy": {
+        "n": 180,
+        "positives": 90,
+        "negatives": 90,
+        "accuracy": 0.4944,
+        "toxic_precision": 0.3333,
+        "toxic_recall": 0.0111,
+        "toxic_f1": 0.0215,
+        "macro_f1": 0.3403,
+        "fpr": 0.0222,
+        "confusion_matrix": {
+          "labels": [
+            "non_toxic",
+            "toxic"
+          ],
+          "matrix": [
+            [
+              88,
+              2
+            ],
+            [
+              89,
+              1
+            ]
+          ]
+        },
+        "roc_auc": 0.4944,
+        "pr_auc": 0.4981,
+        "latency_ms_per_text": 25.01
+      },
+      "threshold_drift": {
+        "val_selected_threshold": 0.4,
+        "test_optimal_threshold": 0.4,
+        "test_fpr_at_val_threshold": 0.1444,
+        "test_fpr_cap": 0.15,
+        "test_fpr_exceeds_cap": false,
+        "test_f1_at_own_optimum": 0.5286,
+        "test_f1_at_val_threshold": 0.5286
+      },
+      "phase2_threshold": 0.4,
+      "validation_sweep": {
+        "0.05": {
+          "toxic_f1": 0.6941,
+          "toxic_recall": 0.9833,
+          "toxic_precision": 0.5364,
+          "fpr": 0.85,
+          "accuracy": 0.5667
+        },
+        "0.1": {
+          "toxic_f1": 0.7097,
+          "toxic_recall": 0.9167,
+          "toxic_precision": 0.5789,
+          "fpr": 0.6667,
+          "accuracy": 0.625
+        },
+        "0.15": {
+          "toxic_f1": 0.6986,
+          "toxic_recall": 0.85,
+          "toxic_precision": 0.593,
+          "fpr": 0.5833,
+          "accuracy": 0.6333
+        },
+        "0.2": {
+          "toxic_f1": 0.7246,
+          "toxic_recall": 0.8333,
+          "toxic_precision": 0.641,
+          "fpr": 0.4667,
+          "accuracy": 0.6833
+        },
+        "0.25": {
+          "toxic_f1": 0.7244,
+          "toxic_recall": 0.7667,
+          "toxic_precision": 0.6866,
+          "fpr": 0.35,
+          "accuracy": 0.7083
+        },
+        "0.3": {
+          "toxic_f1": 0.7227,
+          "toxic_recall": 0.7167,
+          "toxic_precision": 0.7288,
+          "fpr": 0.2667,
+          "accuracy": 0.725
+        },
+        "0.35": {
+          "toxic_f1": 0.6786,
+          "toxic_recall": 0.6333,
+          "toxic_precision": 0.7308,
+          "fpr": 0.2333,
+          "accuracy": 0.7
+        },
+        "0.4": {
+          "toxic_f1": 0.6122,
+          "toxic_recall": 0.5,
+          "toxic_precision": 0.7895,
+          "fpr": 0.1333,
+          "accuracy": 0.6833
+        },
+        "0.45": {
+          "toxic_f1": 0.5532,
+          "toxic_recall": 0.4333,
+          "toxic_precision": 0.7647,
+          "fpr": 0.1333,
+          "accuracy": 0.65
+        },
+        "0.5": {
+          "toxic_f1": 0.4634,
+          "toxic_recall": 0.3167,
+          "toxic_precision": 0.8636,
+          "fpr": 0.05,
+          "accuracy": 0.6333
+        },
+        "0.55": {
+          "toxic_f1": 0.3243,
+          "toxic_recall": 0.2,
+          "toxic_precision": 0.8571,
+          "fpr": 0.0333,
+          "accuracy": 0.5833
+        },
+        "0.6": {
+          "toxic_f1": 0.1515,
+          "toxic_recall": 0.0833,
+          "toxic_precision": 0.8333,
+          "fpr": 0.0167,
+          "accuracy": 0.5333
+        },
+        "0.65": {
+          "toxic_f1": 0.0328,
+          "toxic_recall": 0.0167,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.5083
+        },
+        "0.7": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        },
+        "0.75": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        },
+        "0.8": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        },
+        "0.85": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        },
+        "0.9": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        }
+      },
+      "delta_toxic_f1_vs_phase2_threshold": 0.0
+    },
+    "ta-Latn": {
+      "status": "evaluated",
+      "val_rows": 120,
+      "test_rows": 180,
+      "val_positives": 60,
+      "test_positives": 90,
+      "test_negatives": 90,
+      "validation": {
+        "threshold": 0.25,
+        "rule": "max toxic F1 with val FPR <= 0.15",
+        "toxic_f1": 0.25,
+        "toxic_recall": 0.15,
+        "toxic_precision": 0.75,
+        "fpr": 0.05,
+        "latency_ms_per_text": 121.91
+      },
+      "test_model": {
+        "n": 180,
+        "positives": 90,
+        "negatives": 90,
+        "accuracy": 0.5611,
+        "toxic_precision": 0.72,
+        "toxic_recall": 0.2,
+        "toxic_f1": 0.313,
+        "macro_f1": 0.4953,
+        "fpr": 0.0778,
+        "confusion_matrix": {
+          "labels": [
+            "non_toxic",
+            "toxic"
+          ],
+          "matrix": [
+            [
+              83,
+              7
+            ],
+            [
+              72,
+              18
+            ]
+          ]
+        },
+        "roc_auc": 0.6677,
+        "pr_auc": 0.6585,
+        "latency_ms_per_text": 190.89,
+        "threshold_used": 0.25
+      },
+      "test_legacy": {
+        "n": 180,
+        "positives": 90,
+        "negatives": 90,
+        "accuracy": 0.5222,
+        "toxic_precision": 0.8333,
+        "toxic_recall": 0.0556,
+        "toxic_f1": 0.1042,
+        "macro_f1": 0.3892,
+        "fpr": 0.0111,
+        "confusion_matrix": {
+          "labels": [
+            "non_toxic",
+            "toxic"
+          ],
+          "matrix": [
+            [
+              89,
+              1
+            ],
+            [
+              85,
+              5
+            ]
+          ]
+        },
+        "roc_auc": 0.539,
+        "pr_auc": 0.5327,
+        "latency_ms_per_text": 15.0
+      },
+      "threshold_drift": {
+        "val_selected_threshold": 0.25,
+        "test_optimal_threshold": 0.2,
+        "test_fpr_at_val_threshold": 0.0778,
+        "test_fpr_cap": 0.15,
+        "test_fpr_exceeds_cap": false,
+        "test_f1_at_own_optimum": 0.4308,
+        "test_f1_at_val_threshold": 0.313
+      },
+      "phase2_threshold": 0.3,
+      "validation_sweep": {
+        "0.05": {
+          "toxic_f1": 0.6569,
+          "toxic_recall": 0.75,
+          "toxic_precision": 0.5844,
+          "fpr": 0.5333,
+          "accuracy": 0.6083
+        },
+        "0.1": {
+          "toxic_f1": 0.5217,
+          "toxic_recall": 0.5,
+          "toxic_precision": 0.5455,
+          "fpr": 0.4167,
+          "accuracy": 0.5417
+        },
+        "0.15": {
+          "toxic_f1": 0.4082,
+          "toxic_recall": 0.3333,
+          "toxic_precision": 0.5263,
+          "fpr": 0.3,
+          "accuracy": 0.5167
+        },
+        "0.2": {
+          "toxic_f1": 0.2927,
+          "toxic_recall": 0.2,
+          "toxic_precision": 0.5455,
+          "fpr": 0.1667,
+          "accuracy": 0.5167
+        },
+        "0.25": {
+          "toxic_f1": 0.25,
+          "toxic_recall": 0.15,
+          "toxic_precision": 0.75,
+          "fpr": 0.05,
+          "accuracy": 0.55
+        },
+        "0.3": {
+          "toxic_f1": 0.1739,
+          "toxic_recall": 0.1,
+          "toxic_precision": 0.6667,
+          "fpr": 0.05,
+          "accuracy": 0.525
+        },
+        "0.35": {
+          "toxic_f1": 0.1194,
+          "toxic_recall": 0.0667,
+          "toxic_precision": 0.5714,
+          "fpr": 0.05,
+          "accuracy": 0.5083
+        },
+        "0.4": {
+          "toxic_f1": 0.0323,
+          "toxic_recall": 0.0167,
+          "toxic_precision": 0.5,
+          "fpr": 0.0167,
+          "accuracy": 0.5
+        },
+        "0.45": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0167,
+          "accuracy": 0.4917
+        },
+        "0.5": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        },
+        "0.55": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        },
+        "0.6": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        },
+        "0.65": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        },
+        "0.7": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        },
+        "0.75": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        },
+        "0.8": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        },
+        "0.85": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        },
+        "0.9": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        }
+      },
+      "delta_toxic_f1_vs_phase2_threshold": 0.0677
+    },
+    "hi": {
+      "status": "evaluated",
+      "val_rows": 120,
+      "test_rows": 180,
+      "val_positives": 60,
+      "test_positives": 90,
+      "test_negatives": 90,
+      "validation": {
+        "threshold": 0.35,
+        "rule": "max toxic F1 with val FPR <= 0.15",
+        "toxic_f1": 0.6737,
+        "toxic_recall": 0.5333,
+        "toxic_precision": 0.9143,
+        "fpr": 0.05,
+        "latency_ms_per_text": 394.73
+      },
+      "test_model": {
+        "n": 180,
+        "positives": 90,
+        "negatives": 90,
+        "accuracy": 0.7222,
+        "toxic_precision": 0.9167,
+        "toxic_recall": 0.4889,
+        "toxic_f1": 0.6377,
+        "macro_f1": 0.7062,
+        "fpr": 0.0444,
+        "confusion_matrix": {
+          "labels": [
+            "non_toxic",
+            "toxic"
+          ],
+          "matrix": [
+            [
+              86,
+              4
+            ],
+            [
+              46,
+              44
+            ]
+          ]
+        },
+        "roc_auc": 0.8611,
+        "pr_auc": 0.8735,
+        "latency_ms_per_text": 387.02,
+        "threshold_used": 0.35
+      },
+      "test_legacy": {
+        "n": 180,
+        "positives": 90,
+        "negatives": 90,
+        "accuracy": 0.5167,
+        "toxic_precision": 1.0,
+        "toxic_recall": 0.0333,
+        "toxic_f1": 0.0645,
+        "macro_f1": 0.3693,
+        "fpr": 0.0,
+        "confusion_matrix": {
+          "labels": [
+            "non_toxic",
+            "toxic"
+          ],
+          "matrix": [
+            [
+              90,
+              0
+            ],
+            [
+              87,
+              3
+            ]
+          ]
+        },
+        "roc_auc": 0.5167,
+        "pr_auc": 0.5167,
+        "latency_ms_per_text": 18.25
+      },
+      "threshold_drift": {
+        "val_selected_threshold": 0.35,
+        "test_optimal_threshold": 0.25,
+        "test_fpr_at_val_threshold": 0.0444,
+        "test_fpr_cap": 0.15,
+        "test_fpr_exceeds_cap": false,
+        "test_f1_at_own_optimum": 0.717,
+        "test_f1_at_val_threshold": 0.6377
+      },
+      "phase2_threshold": 0.35,
+      "validation_sweep": {
+        "0.05": {
+          "toxic_f1": 0.7945,
+          "toxic_recall": 0.9667,
+          "toxic_precision": 0.6744,
+          "fpr": 0.4667,
+          "accuracy": 0.75
+        },
+        "0.1": {
+          "toxic_f1": 0.8148,
+          "toxic_recall": 0.9167,
+          "toxic_precision": 0.7333,
+          "fpr": 0.3333,
+          "accuracy": 0.7917
+        },
+        "0.15": {
+          "toxic_f1": 0.8,
+          "toxic_recall": 0.8667,
+          "toxic_precision": 0.7429,
+          "fpr": 0.3,
+          "accuracy": 0.7833
+        },
+        "0.2": {
+          "toxic_f1": 0.7667,
+          "toxic_recall": 0.7667,
+          "toxic_precision": 0.7667,
+          "fpr": 0.2333,
+          "accuracy": 0.7667
+        },
+        "0.25": {
+          "toxic_f1": 0.7207,
+          "toxic_recall": 0.6667,
+          "toxic_precision": 0.7843,
+          "fpr": 0.1833,
+          "accuracy": 0.7417
+        },
+        "0.3": {
+          "toxic_f1": 0.6667,
+          "toxic_recall": 0.55,
+          "toxic_precision": 0.8462,
+          "fpr": 0.1,
+          "accuracy": 0.725
+        },
+        "0.35": {
+          "toxic_f1": 0.6737,
+          "toxic_recall": 0.5333,
+          "toxic_precision": 0.9143,
+          "fpr": 0.05,
+          "accuracy": 0.7417
+        },
+        "0.4": {
+          "toxic_f1": 0.5909,
+          "toxic_recall": 0.4333,
+          "toxic_precision": 0.9286,
+          "fpr": 0.0333,
+          "accuracy": 0.7
+        },
+        "0.45": {
+          "toxic_f1": 0.4615,
+          "toxic_recall": 0.3,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.65
+        },
+        "0.5": {
+          "toxic_f1": 0.2609,
+          "toxic_recall": 0.15,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.575
+        },
+        "0.55": {
+          "toxic_f1": 0.2353,
+          "toxic_recall": 0.1333,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.5667
+        },
+        "0.6": {
+          "toxic_f1": 0.1538,
+          "toxic_recall": 0.0833,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.5417
+        },
+        "0.65": {
+          "toxic_f1": 0.0645,
+          "toxic_recall": 0.0333,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.5167
+        },
+        "0.7": {
+          "toxic_f1": 0.0328,
+          "toxic_recall": 0.0167,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.5083
+        },
+        "0.75": {
+          "toxic_f1": 0.0328,
+          "toxic_recall": 0.0167,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.5083
+        },
+        "0.8": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        },
+        "0.85": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        },
+        "0.9": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        }
+      },
+      "delta_toxic_f1_vs_phase2_threshold": 0.0
+    },
+    "bn": {
+      "status": "evaluated",
+      "val_rows": 95,
+      "test_rows": 143,
+      "val_positives": 35,
+      "test_positives": 53,
+      "test_negatives": 90,
+      "validation": {
+        "threshold": 0.25,
+        "rule": "max toxic F1 with val FPR <= 0.15",
+        "toxic_f1": 0.6333,
+        "toxic_recall": 0.5429,
+        "toxic_precision": 0.76,
+        "fpr": 0.1,
+        "latency_ms_per_text": 975.3
+      },
+      "test_model": {
+        "n": 143,
+        "positives": 53,
+        "negatives": 90,
+        "accuracy": 0.7902,
+        "toxic_precision": 0.7091,
+        "toxic_recall": 0.7358,
+        "toxic_f1": 0.7222,
+        "macro_f1": 0.7768,
+        "fpr": 0.1778,
+        "confusion_matrix": {
+          "labels": [
+            "non_toxic",
+            "toxic"
+          ],
+          "matrix": [
+            [
+              74,
+              16
+            ],
+            [
+              14,
+              39
+            ]
+          ]
+        },
+        "roc_auc": 0.839,
+        "pr_auc": 0.7429,
+        "latency_ms_per_text": 951.69,
+        "threshold_used": 0.25
+      },
+      "test_legacy": {
+        "n": 143,
+        "positives": 53,
+        "negatives": 90,
+        "accuracy": 0.6294,
+        "toxic_precision": 0.0,
+        "toxic_recall": 0.0,
+        "toxic_f1": 0.0,
+        "macro_f1": 0.3863,
+        "fpr": 0.0,
+        "confusion_matrix": {
+          "labels": [
+            "non_toxic",
+            "toxic"
+          ],
+          "matrix": [
+            [
+              90,
+              0
+            ],
+            [
+              53,
+              0
+            ]
+          ]
+        },
+        "roc_auc": 0.4906,
+        "pr_auc": 0.3663,
+        "latency_ms_per_text": 42.71
+      },
+      "threshold_drift": {
+        "val_selected_threshold": 0.25,
+        "test_optimal_threshold": 0.3,
+        "test_fpr_at_val_threshold": 0.1778,
+        "test_fpr_cap": 0.15,
+        "test_fpr_exceeds_cap": true,
+        "test_f1_at_own_optimum": 0.6237,
+        "test_f1_at_val_threshold": 0.7222
+      },
+      "phase2_threshold": 0.3,
+      "validation_sweep": {
+        "0.05": {
+          "toxic_f1": 0.5833,
+          "toxic_recall": 1.0,
+          "toxic_precision": 0.4118,
+          "fpr": 0.8333,
+          "accuracy": 0.4737
+        },
+        "0.1": {
+          "toxic_f1": 0.6286,
+          "toxic_recall": 0.9429,
+          "toxic_precision": 0.4714,
+          "fpr": 0.6167,
+          "accuracy": 0.5895
+        },
+        "0.15": {
+          "toxic_f1": 0.6667,
+          "toxic_recall": 0.8286,
+          "toxic_precision": 0.5577,
+          "fpr": 0.3833,
+          "accuracy": 0.6947
+        },
+        "0.2": {
+          "toxic_f1": 0.6857,
+          "toxic_recall": 0.6857,
+          "toxic_precision": 0.6857,
+          "fpr": 0.1833,
+          "accuracy": 0.7684
+        },
+        "0.25": {
+          "toxic_f1": 0.6333,
+          "toxic_recall": 0.5429,
+          "toxic_precision": 0.76,
+          "fpr": 0.1,
+          "accuracy": 0.7684
+        },
+        "0.3": {
+          "toxic_f1": 0.5385,
+          "toxic_recall": 0.4,
+          "toxic_precision": 0.8235,
+          "fpr": 0.05,
+          "accuracy": 0.7474
+        },
+        "0.35": {
+          "toxic_f1": 0.48,
+          "toxic_recall": 0.3429,
+          "toxic_precision": 0.8,
+          "fpr": 0.05,
+          "accuracy": 0.7263
+        },
+        "0.4": {
+          "toxic_f1": 0.3182,
+          "toxic_recall": 0.2,
+          "toxic_precision": 0.7778,
+          "fpr": 0.0333,
+          "accuracy": 0.6842
+        },
+        "0.45": {
+          "toxic_f1": 0.0556,
+          "toxic_recall": 0.0286,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.6421
+        },
+        "0.5": {
+          "toxic_f1": 0.0556,
+          "toxic_recall": 0.0286,
+          "toxic_precision": 1.0,
+          "fpr": 0.0,
+          "accuracy": 0.6421
+        },
+        "0.55": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.6316
+        },
+        "0.6": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.6316
+        },
+        "0.65": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.6316
+        },
+        "0.7": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.6316
+        },
+        "0.75": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.6316
+        },
+        "0.8": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.6316
+        },
+        "0.85": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.6316
+        },
+        "0.9": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.6316
+        }
+      },
+      "delta_toxic_f1_vs_phase2_threshold": 0.0985
+    },
+    "ur": {
+      "status": "evaluated",
+      "val_rows": 120,
+      "test_rows": 180,
+      "val_positives": 60,
+      "test_positives": 90,
+      "test_negatives": 90,
+      "validation": {
+        "threshold": 0.4,
+        "rule": "max toxic F1 with val FPR <= 0.15",
+        "toxic_f1": 0.717,
+        "toxic_recall": 0.6333,
+        "toxic_precision": 0.8261,
+        "fpr": 0.1333,
+        "latency_ms_per_text": 310.07
+      },
+      "test_model": {
+        "n": 180,
+        "positives": 90,
+        "negatives": 90,
+        "accuracy": 0.6333,
+        "toxic_precision": 0.6714,
+        "toxic_recall": 0.5222,
+        "toxic_f1": 0.5875,
+        "macro_f1": 0.6288,
+        "fpr": 0.2556,
+        "confusion_matrix": {
+          "labels": [
+            "non_toxic",
+            "toxic"
+          ],
+          "matrix": [
+            [
+              67,
+              23
+            ],
+            [
+              43,
+              47
+            ]
+          ]
+        },
+        "roc_auc": 0.7044,
+        "pr_auc": 0.6967,
+        "latency_ms_per_text": 336.21,
+        "threshold_used": 0.4
+      },
+      "test_legacy": {
+        "n": 180,
+        "positives": 90,
+        "negatives": 90,
+        "accuracy": 0.5,
+        "toxic_precision": 0.0,
+        "toxic_recall": 0.0,
+        "toxic_f1": 0.0,
+        "macro_f1": 0.3333,
+        "fpr": 0.0,
+        "confusion_matrix": {
+          "labels": [
+            "non_toxic",
+            "toxic"
+          ],
+          "matrix": [
+            [
+              90,
+              0
+            ],
+            [
+              90,
+              0
+            ]
+          ]
+        },
+        "roc_auc": 0.5,
+        "pr_auc": 0.5,
+        "latency_ms_per_text": 15.37
+      },
+      "threshold_drift": {
+        "val_selected_threshold": 0.4,
+        "test_optimal_threshold": 0.55,
+        "test_fpr_at_val_threshold": 0.2556,
+        "test_fpr_cap": 0.15,
+        "test_fpr_exceeds_cap": true,
+        "test_f1_at_own_optimum": 0.3937,
+        "test_f1_at_val_threshold": 0.5875
+      },
+      "phase2_threshold": 0.4,
+      "validation_sweep": {
+        "0.05": {
+          "toxic_f1": 0.6786,
+          "toxic_recall": 0.95,
+          "toxic_precision": 0.5278,
+          "fpr": 0.85,
+          "accuracy": 0.55
+        },
+        "0.1": {
+          "toxic_f1": 0.6667,
+          "toxic_recall": 0.8833,
+          "toxic_precision": 0.5354,
+          "fpr": 0.7667,
+          "accuracy": 0.5583
+        },
+        "0.15": {
+          "toxic_f1": 0.7211,
+          "toxic_recall": 0.8833,
+          "toxic_precision": 0.6092,
+          "fpr": 0.5667,
+          "accuracy": 0.6583
+        },
+        "0.2": {
+          "toxic_f1": 0.7391,
+          "toxic_recall": 0.85,
+          "toxic_precision": 0.6538,
+          "fpr": 0.45,
+          "accuracy": 0.7
+        },
+        "0.25": {
+          "toxic_f1": 0.7463,
+          "toxic_recall": 0.8333,
+          "toxic_precision": 0.6757,
+          "fpr": 0.4,
+          "accuracy": 0.7167
+        },
+        "0.3": {
+          "toxic_f1": 0.7642,
+          "toxic_recall": 0.7833,
+          "toxic_precision": 0.746,
+          "fpr": 0.2667,
+          "accuracy": 0.7583
+        },
+        "0.35": {
+          "toxic_f1": 0.7368,
+          "toxic_recall": 0.7,
+          "toxic_precision": 0.7778,
+          "fpr": 0.2,
+          "accuracy": 0.75
+        },
+        "0.4": {
+          "toxic_f1": 0.717,
+          "toxic_recall": 0.6333,
+          "toxic_precision": 0.8261,
+          "fpr": 0.1333,
+          "accuracy": 0.75
+        },
+        "0.45": {
+          "toxic_f1": 0.6022,
+          "toxic_recall": 0.4667,
+          "toxic_precision": 0.8485,
+          "fpr": 0.0833,
+          "accuracy": 0.6917
+        },
+        "0.5": {
+          "toxic_f1": 0.5349,
+          "toxic_recall": 0.3833,
+          "toxic_precision": 0.8846,
+          "fpr": 0.05,
+          "accuracy": 0.6667
+        },
+        "0.55": {
+          "toxic_f1": 0.4444,
+          "toxic_recall": 0.3,
+          "toxic_precision": 0.8571,
+          "fpr": 0.05,
+          "accuracy": 0.625
+        },
+        "0.6": {
+          "toxic_f1": 0.3896,
+          "toxic_recall": 0.25,
+          "toxic_precision": 0.8824,
+          "fpr": 0.0333,
+          "accuracy": 0.6083
+        },
+        "0.65": {
+          "toxic_f1": 0.2059,
+          "toxic_recall": 0.1167,
+          "toxic_precision": 0.875,
+          "fpr": 0.0167,
+          "accuracy": 0.55
+        },
+        "0.7": {
+          "toxic_f1": 0.1231,
+          "toxic_recall": 0.0667,
+          "toxic_precision": 0.8,
+          "fpr": 0.0167,
+          "accuracy": 0.525
+        },
+        "0.75": {
+          "toxic_f1": 0.0938,
+          "toxic_recall": 0.05,
+          "toxic_precision": 0.75,
+          "fpr": 0.0167,
+          "accuracy": 0.5167
+        },
+        "0.8": {
+          "toxic_f1": 0.0635,
+          "toxic_recall": 0.0333,
+          "toxic_precision": 0.6667,
+          "fpr": 0.0167,
+          "accuracy": 0.5083
+        },
+        "0.85": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        },
+        "0.9": {
+          "toxic_f1": 0.0,
+          "toxic_recall": 0.0,
+          "toxic_precision": 0.0,
+          "fpr": 0.0,
+          "accuracy": 0.5
+        }
+      },
+      "delta_toxic_f1_vs_phase2_threshold": 0.0
+    }
+  },
+  "global_validation": {
+    "threshold": 0.35,
+    "rule": "max toxic F1 with val FPR <= 0.15",
+    "n": 695,
+    "positives": 335,
+    "toxic_f1": 0.6585,
+    "fpr": 0.1333,
+    "sweep": {
+      "0.05": {
+        "toxic_f1": 0.6939,
+        "toxic_recall": 0.9373,
+        "toxic_precision": 0.5509,
+        "fpr": 0.7111,
+        "accuracy": 0.6014
+      },
+      "0.1": {
+        "toxic_f1": 0.695,
+        "toxic_recall": 0.8537,
+        "toxic_precision": 0.5861,
+        "fpr": 0.5611,
+        "accuracy": 0.6388
+      },
+      "0.15": {
+        "toxic_f1": 0.7011,
+        "toxic_recall": 0.791,
+        "toxic_precision": 0.6295,
+        "fpr": 0.4333,
+        "accuracy": 0.6748
+      },
+      "0.2": {
+        "toxic_f1": 0.7023,
+        "toxic_recall": 0.7254,
+        "toxic_precision": 0.6807,
+        "fpr": 0.3167,
+        "accuracy": 0.7036
+      },
+      "0.25": {
+        "toxic_f1": 0.6967,
+        "toxic_recall": 0.6687,
+        "toxic_precision": 0.7273,
+        "fpr": 0.2333,
+        "accuracy": 0.7194
+      },
+      "0.3": {
+        "toxic_f1": 0.6801,
+        "toxic_recall": 0.606,
+        "toxic_precision": 0.7748,
+        "fpr": 0.1639,
+        "accuracy": 0.7252
+      },
+      "0.35": {
+        "toxic_f1": 0.6585,
+        "toxic_recall": 0.5612,
+        "toxic_precision": 0.7966,
+        "fpr": 0.1333,
+        "accuracy": 0.7194
+      },
+      "0.4": {
+        "toxic_f1": 0.6113,
+        "toxic_recall": 0.4836,
+        "toxic_precision": 0.8308,
+        "fpr": 0.0917,
+        "accuracy": 0.7036
+      },
+      "0.45": {
+        "toxic_f1": 0.5339,
+        "toxic_recall": 0.3881,
+        "toxic_precision": 0.8553,
+        "fpr": 0.0611,
+        "accuracy": 0.6734
+      },
+      "0.5": {
+        "toxic_f1": 0.4747,
+        "toxic_recall": 0.3224,
+        "toxic_precision": 0.9,
+        "fpr": 0.0333,
+        "accuracy": 0.6561
+      },
+      "0.55": {
+        "toxic_f1": 0.4276,
+        "toxic_recall": 0.2776,
+        "toxic_precision": 0.93,
+        "fpr": 0.0194,
+        "accuracy": 0.6417
+      },
+      "0.6": {
+        "toxic_f1": 0.3711,
+        "toxic_recall": 0.2299,
+        "toxic_precision": 0.9625,
+        "fpr": 0.0083,
+        "accuracy": 0.6245
+      },
+      "0.65": {
+        "toxic_f1": 0.2901,
+        "toxic_recall": 0.1701,
+        "toxic_precision": 0.9828,
+        "fpr": 0.0028,
+        "accuracy": 0.5986
+      },
+      "0.7": {
+        "toxic_f1": 0.2454,
+        "toxic_recall": 0.1403,
+        "toxic_precision": 0.9792,
+        "fpr": 0.0028,
+        "accuracy": 0.5842
+      },
+      "0.75": {
+        "toxic_f1": 0.2128,
+        "toxic_recall": 0.1194,
+        "toxic_precision": 0.9756,
+        "fpr": 0.0028,
+        "accuracy": 0.5741
+      },
+      "0.8": {
+        "toxic_f1": 0.1887,
+        "toxic_recall": 0.1045,
+        "toxic_precision": 0.9722,
+        "fpr": 0.0028,
+        "accuracy": 0.5669
+      },
+      "0.85": {
+        "toxic_f1": 0.1232,
+        "toxic_recall": 0.0657,
+        "toxic_precision": 1.0,
+        "fpr": 0.0,
+        "accuracy": 0.5496
+      },
+      "0.9": {
+        "toxic_f1": 0.0747,
+        "toxic_recall": 0.0388,
+        "toxic_precision": 1.0,
+        "fpr": 0.0,
+        "accuracy": 0.5367
+      }
+    }
+  },
+  "uncertainty_and_coverage": {
+    "coverage": {
+      "bn": {
+        "status": [
+          "experimental",
+          "held-out n=143: F1 0.624 vs legacy 0.000, FPR 0.122; labels are weak LLM annotations, not human gold"
+        ]
+      },
+      "en": {
+        "status": [
+          "validated",
+          "held-out n=180: F1 0.948 vs legacy 0.540, FPR 0.011, ROC-AUC 0.989 (textdetox)"
+        ]
+      },
+      "gu": {
+        "status": [
+          "unmeasured",
+          "no AURA held-out evaluation for this language"
+        ]
+      },
+      "hi": {
+        "status": [
+          "validated",
+          "held-out n=180: F1 0.638 vs legacy 0.065, FPR 0.044, ROC-AUC 0.861 (textdetox)"
+        ]
+      },
+      "kn": {
+        "status": [
+          "unmeasured",
+          "no AURA held-out evaluation for this language"
+        ]
+      },
+      "ml": {
+        "status": [
+          "unmeasured",
+          "no AURA held-out evaluation for this language"
+        ]
+      },
+      "mr": {
+        "status": [
+          "unmeasured",
+          "no AURA held-out evaluation for this language"
+        ]
+      },
+      "pa": {
+        "status": [
+          "unmeasured",
+          "no AURA held-out evaluation for this language"
+        ]
+      },
+      "ta": {
+        "status": [
+          "experimental",
+          "held-out n=180: F1 0.529 vs legacy 0.021, FPR 0.144 (FPR-capped threshold 0.40); not claimed by the model card (Dravidian CodeMix)"
+        ]
+      },
+      "ta-Latn": {
+        "status": [
+          "experimental",
+          "held-out n=180: F1 0.245 vs legacy 0.104, FPR 0.033 — weak absolute performance; Tanglish remains experimental"
+        ]
+      },
+      "te": {
+        "status": [
+          "unmeasured",
+          "no AURA held-out evaluation for this language"
+        ]
+      },
+      "ur": {
+        "status": [
+          "experimental",
+          "held-out n=180: F1 0.588 vs legacy 0.000 but FPR 0.256 (FPR-capped threshold 0.40) — still a high false-positive rate"
+        ]
+      }
+    },
+    "claimed_languages_count": 32,
+    "claimed_excludes_ta": true,
+    "evaluated_groups": [
+      "en",
+      "ta",
+      "ta-Latn",
+      "hi",
+      "bn",
+      "ur"
+    ],
+    "decision_status_rule": {
+      "predicted|uncertain": "measured coverage; margin < 0.05 -> uncertain (action HUMAN_REVIEW unless RESTRICT/TEMPORARY_BLOCK)",
+      "experimental": "coverage unmeasured/model_card_claimed -> action HUMAN_REVIEW",
+      "fallback": "adapter failure -> legacy result stands, sanitised model_error",
+      "legacy": "default engine; no toxicity_score field"
+    },
+    "unsupported_language_behaviour": "languages outside the coverage map fall back to the legacy engine under auto, or are marked experimental + HUMAN_REVIEW under hf; never silently claimed as supported"
+  },
+  "memory_mb": {
+    "before": 18.0,
+    "after": 1138.3
+  },
+  "fpr_cap_respected_on_test": false,
+  "tuned_per_language": {
+    "en": 0.55,
+    "ta": 0.4,
+    "ta-Latn": 0.25,
+    "hi": 0.35,
+    "bn": 0.25,
+    "ur": 0.4
+  }
+}

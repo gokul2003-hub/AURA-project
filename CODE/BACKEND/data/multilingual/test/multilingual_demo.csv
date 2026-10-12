@@ -1,0 +1,25 @@
+id,text,language,language_name,script,toxic,severe_toxic,obscene,threat,insult,identity_hate,source,split
+7,"You are a fucking idiot, shut up.",en,English,Latin,1,0,1,0,1,0,curated_demo,test
+8,"You are a worthless moron, go to hell.",en,English,Latin,1,0,0,0,1,0,curated_demo,test
+15,"நீ பொறுக்கி, உனக்கு ஒழுக்கமே இல்லை.",ta,Tamil,Tamil,1,0,1,0,1,0,curated_demo,test
+16,"நீ ஒரு பைத்தியம், உன்னை யாரும் விரும்புவதில்லை.",ta,Tamil,Tamil,1,0,0,0,1,0,curated_demo,test
+23,"nee pazhu thaai, unakku ozhukkame illa.",ta-Latn,Tanglish,Latin,1,0,1,0,1,0,curated_demo,test
+24,"nee kuppa payyan, yarum unna virumbala.",ta-Latn,Tanglish,Latin,1,0,0,0,1,0,curated_demo,test
+31,"तुम कमीने हो, बंद हो जाओ.",hi,Hindi,Devanagari,1,0,1,0,1,0,curated_demo,test
+32,"तू एक मूर्ख है, कोई तुमसे बात नहीं करना चाहता.",hi,Hindi,Devanagari,1,0,0,0,1,0,curated_demo,test
+39,"నువ్వు దద్దమ్మ, ఎవరూ నిన్ను ఇష్టపడరు.",te,Telugu,Telugu,1,0,0,0,1,0,curated_demo,test
+40,"నువ్వు ఒక వెంగలి, నోరు ముయ్.",te,Telugu,Telugu,1,0,0,0,1,0,curated_demo,test
+47,"നീ ഒരു പൊട്ടനാണ്, ആരും നിന്നെ ഇഷ്ടപ്പെടുന്നില്ല.",ml,Malayalam,Malayalam,1,0,0,0,1,0,curated_demo,test
+48,"നീ ഒരു കാപ്പിരിയാണ്, നിശ്ശബ്ദനാകൂ.",ml,Malayalam,Malayalam,1,0,0,0,1,0,curated_demo,test
+55,"ನೀನು ಹುಚ್ಚ, ಯಾರೂ ನಿನ್ನನ್ನು ಇಷ್ಟಪಡುವುದಿಲ್ಲ.",kn,Kannada,Kannada,1,0,0,0,1,0,curated_demo,test
+56,"ನೀನು ಒಂದು ದಡ್ಡ, ಮೌನವಾಗಿರು.",kn,Kannada,Kannada,1,0,0,0,1,0,curated_demo,test
+63,"তুমি কুত্তা, নীরব হয়ে যাও.",bn,Bengali,Bengali,1,0,0,0,1,0,curated_demo,test
+64,"তুমি খারাপ লোক, কেউ তোমাকে ভালোবায় না.",bn,Bengali,Bengali,1,0,0,0,1,0,curated_demo,test
+71,"तू वाईट माणूस आहेस, गप्प बस.",mr,Marathi,Devanagari,1,0,0,0,1,0,curated_demo,test
+72,"तू कायमचीगैरसमजूत आहेस, कोण तुला बोलत नाही.",mr,Marathi,Devanagari,1,0,0,0,1,0,curated_demo,test
+79,"તું ખરાબ માણસ છે, ચૂપ થઈ જા.",gu,Gujarati,Gujarati,1,0,0,0,1,0,curated_demo,test
+80,"તું નાલાયક છે, કોઈ તને ગમતું નથી.",gu,Gujarati,Gujarati,1,0,0,0,1,0,curated_demo,test
+87,"ਤੂੰ ਬੇਅਕਲ ਹੈਂ, ਚੁੱਪ ਹੋ ਜਾ.",pa,Punjabi,Gurmukhi,1,0,0,0,1,0,curated_demo,test
+88,"ਤੂੰ ਖਰਾਬ ਬੰਦਾ ਹੈਂ, ਕੋਈ ਤੈਨੂੰ ਪਸਦ ਨਹੀਂ ਕਰਦਾ.",pa,Punjabi,Gurmukhi,1,0,0,0,1,0,curated_demo,test
+95,تم ایک خراب آدمی ہو، خاموش ہو جاؤ.,ur,Urdu,Arabic,1,0,0,0,1,0,curated_demo,test
+96,تم وابرن ہو، کوئی تمہیں پسند نہیں کرتا.,ur,Urdu,Arabic,1,0,0,0,1,0,curated_demo,test

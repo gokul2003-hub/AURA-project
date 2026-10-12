@@ -1,0 +1,33 @@
+{
+ "language": "hi",
+ "language_name": "Hindi",
+ "script": "Devanagari",
+ "notes": "Small curated heuristic lexicon (demo/dev quality). Not benchmark data.",
+ "categories": {
+  "toxic": [
+   "मैं तुमसे नफरत करता हूँ",
+   "तुम बहुत बेवकूफ हो"
+  ],
+  "severe_toxic": [
+   "मैं तुम्हें मार दूंगा"
+  ],
+  "obscene": [
+   "कमीने",
+   "कमीना"
+  ],
+  "threat": [
+   "मैं तुम्हें कल ढूंढ लूंगा",
+   "मार दूंगा",
+   "तुझी खैर नहीं"
+  ],
+  "insult": [
+   "बेवकूफ",
+   "मूर्ख",
+   "गवार",
+   "तू एक मूर्ख है"
+  ],
+  "identity_hate": [
+   "तुम्हारे लोग सब बुरे हैं"
+  ]
+ }
+}

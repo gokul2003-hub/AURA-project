@@ -1,0 +1,2968 @@
+{
+  "model_name": "multinomial_nb_improved",
+  "model_version": "improved_v3",
+  "variant": "improved",
+  "seed": 42,
+  "bigrams": true,
+  "tokenizer": "word_unigram_bigram",
+  "smoothing": 1.0,
+  "classes": [
+    "non_toxic",
+    "toxic"
+  ],
+  "vocab_size": 724,
+  "class_totals": [
+    771,
+    147
+  ],
+  "class_doc_counts": [
+    57,
+    13
+  ],
+  "class_log_prior": [
+    -0.21622310846963594,
+    -1.6376087894007967
+  ],
+  "feature_counts": {
+    "who": [
+      1,
+      0
+    ],
+    "wants": [
+      1,
+      0
+    ],
+    "to": [
+      7,
+      0
+    ],
+    "pair": [
+      1,
+      0
+    ],
+    "program": [
+      1,
+      0
+    ],
+    "on": [
+      8,
+      0
+    ],
+    "the": [
+      29,
+      0
+    ],
+    "assignment": [
+      1,
+      0
+    ],
+    "who_wants": [
+      1,
+      0
+    ],
+    "wants_to": [
+      1,
+      0
+    ],
+    "to_pair": [
+      1,
+      0
+    ],
+    "pair_program": [
+      1,
+      0
+    ],
+    "program_on": [
+      1,
+      0
+    ],
+    "on_the": [
+      2,
+      0
+    ],
+    "the_assignment": [
+      1,
+      0
+    ],
+    "i": [
+      15,
+      1
+    ],
+    "fixed": [
+      2,
+      0
+    ],
+    "bug": [
+      1,
+      0
+    ],
+    "it": [
+      3,
+      1
+    ],
+    "was": [
+      1,
+      0
+    ],
+    "a": [
+      5,
+      0
+    ],
+    "missing": [
+      1,
+      0
+    ],
+    "return": [
+      1,
+      0
+    ],
+    "statement": [
+      1,
+      0
+    ],
+    "i_fixed": [
+      1,
+      0
+    ],
+    "fixed_the": [
+      1,
+      0
+    ],
+    "the_bug": [
+      1,
+      0
+    ],
+    "bug_it": [
+      1,
+      0
+    ],
+    "it_was": [
+      1,
+      0
+    ],
+    "was_a": [
+      1,
+      0
+    ],
+    "a_missing": [
+      1,
+      0
+    ],
+    "missing_return": [
+      1,
+      0
+    ],
+    "return_statement": [
+      1,
+      0
+    ],
+    "so": [
+      1,
+      1
+    ],
+    "damn": [
+      0,
+      2
+    ],
+    "boring": [
+      0,
+      1
+    ],
+    "lecture": [
+      1,
+      1
+    ],
+    "today": [
+      1,
+      1
+    ],
+    "so_damn": [
+      0,
+      1
+    ],
+    "damn_boring": [
+      0,
+      1
+    ],
+    "boring_lecture": [
+      0,
+      1
+    ],
+    "lecture_today": [
+      0,
+      1
+    ],
+    "docs": [
+      1,
+      0
+    ],
+    "are": [
+      3,
+      4
+    ],
+    "confusing": [
+      1,
+      0
+    ],
+    "but": [
+      5,
+      0
+    ],
+    "code": [
+      3,
+      0
+    ],
+    "is": [
+      6,
+      2
+    ],
+    "fine": [
+      2,
+      0
+    ],
+    "the_docs": [
+      1,
+      0
+    ],
+    "docs_are": [
+      1,
+      0
+    ],
+    "are_confusing": [
+      1,
+      0
+    ],
+    "confusing_but": [
+      1,
+      0
+    ],
+    "but_the": [
+      1,
+      0
+    ],
+    "the_code": [
+      1,
+      0
+    ],
+    "code_is": [
+      1,
+      0
+    ],
+    "is_fine": [
+      1,
+      0
+    ],
+    "lab": [
+      2,
+      0
+    ],
+    "tomorrow": [
+      2,
+      0
+    ],
+    "or": [
+      2,
+      0
+    ],
+    "cancelled": [
+      1,
+      0
+    ],
+    "is_the": [
+      1,
+      0
+    ],
+    "the_lab": [
+      2,
+      0
+    ],
+    "lab_tomorrow": [
+      1,
+      0
+    ],
+    "tomorrow_or": [
+      1,
+      0
+    ],
+    "or_is": [
+      1,
+      0
+    ],
+    "is_it": [
+      1,
+      0
+    ],
+    "it_cancelled": [
+      1,
+      0
+    ],
+    "git": [
+      1,
+      0
+    ],
+    "merge": [
+      1,
+      0
+    ],
+    "conflict": [
+      1,
+      0
+    ],
+    "again": [
+      3,
+      0
+    ],
+    "how": [
+      3,
+      0
+    ],
+    "do": [
+      5,
+      0
+    ],
+    "resolve": [
+      1,
+      0
+    ],
+    "git_merge": [
+      1,
+      0
+    ],
+    "merge_conflict": [
+      1,
+      0
+    ],
+    "conflict_again": [
+      1,
+      0
+    ],
+    "again_how": [
+      1,
+      0
+    ],
+    "how_do": [
+      3,
+      0
+    ],
+    "do_i": [
+      3,
+      0
+    ],
+    "i_resolve": [
+      1,
+      0
+    ],
+    "this": [
+      5,
+      3
+    ],
+    "worked": [
+      1,
+      0
+    ],
+    "for": [
+      4,
+      0
+    ],
+    "my": [
+      7,
+      0
+    ],
+    "project": [
+      2,
+      0
+    ],
+    "also": [
+      2,
+      0
+    ],
+    "this_worked": [
+      1,
+      0
+    ],
+    "worked_for": [
+      1,
+      0
+    ],
+    "for_my": [
+      1,
+      0
+    ],
+    "my_project": [
+      1,
+      0
+    ],
+    "project_also": [
+      1,
+      0
+    ],
+    "library": [
+      1,
+      0
+    ],
+    "closed": [
+      1,
+      0
+    ],
+    "early": [
+      1,
+      0
+    ],
+    "am": [
+      2,
+      0
+    ],
+    "heading": [
+      1,
+      0
+    ],
+    "home": [
+      1,
+      0
+    ],
+    "library_closed": [
+      1,
+      0
+    ],
+    "closed_early": [
+      1,
+      0
+    ],
+    "early_so": [
+      1,
+      0
+    ],
+    "so_i": [
+      1,
+      0
+    ],
+    "i_am": [
+      2,
+      0
+    ],
+    "am_heading": [
+      1,
+      0
+    ],
+    "heading_home": [
+      1,
+      0
+    ],
+    "error": [
+      3,
+      0
+    ],
+    "while": [
+      1,
+      0
+    ],
+    "importing": [
+      1,
+      0
+    ],
+    "sqlite3": [
+      1,
+      0
+    ],
+    "pls": [
+      1,
+      0
+    ],
+    "help": [
+      1,
+      0
+    ],
+    "error_while": [
+      1,
+      0
+    ],
+    "while_importing": [
+      1,
+      0
+    ],
+    "importing_sqlite3": [
+      1,
+      0
+    ],
+    "sqlite3_pls": [
+      1,
+      0
+    ],
+    "pls_help": [
+      1,
+      0
+    ],
+    "you": [
+      2,
+      6
+    ],
+    "such": [
+      0,
+      1
+    ],
+    "an": [
+      0,
+      1
+    ],
+    "idiot": [
+      0,
+      1
+    ],
+    "lol": [
+      0,
+      1
+    ],
+    "you_are": [
+      0,
+      3
+    ],
+    "are_such": [
+      0,
+      1
+    ],
+    "such_an": [
+      0,
+      1
+    ],
+    "an_idiot": [
+      0,
+      1
+    ],
+    "idiot_lol": [
+      0,
+      1
+    ],
+    "what": [
+      1,
+      0
+    ],
+    "does": [
+      1,
+      0
+    ],
+    "seed": [
+      1,
+      0
+    ],
+    "value": [
+      1,
+      0
+    ],
+    "change": [
+      1,
+      0
+    ],
+    "exactly": [
+      1,
+      0
+    ],
+    "what_does": [
+      1,
+      0
+    ],
+    "does_the": [
+      1,
+      0
+    ],
+    "the_seed": [
+      1,
+      0
+    ],
+    "seed_value": [
+      1,
+      0
+    ],
+    "value_change": [
+      1,
+      0
+    ],
+    "change_exactly": [
+      1,
+      0
+    ],
+    "please": [
+      4,
+      0
+    ],
+    "explain": [
+      1,
+      0
+    ],
+    "split": [
+      1,
+      0
+    ],
+    "ratio": [
+      1,
+      0
+    ],
+    "please_explain": [
+      1,
+      0
+    ],
+    "explain_the": [
+      1,
+      0
+    ],
+    "the_split": [
+      1,
+      0
+    ],
+    "split_ratio": [
+      1,
+      0
+    ],
+    "ratio_again": [
+      1,
+      0
+    ],
+    "don't": [
+      1,
+      0
+    ],
+    "push": [
+      1,
+      0
+    ],
+    "directly": [
+      1,
+      0
+    ],
+    "main": [
+      1,
+      0
+    ],
+    "branch": [
+      1,
+      0
+    ],
+    "please_don't": [
+      1,
+      0
+    ],
+    "don't_push": [
+      1,
+      0
+    ],
+    "push_directly": [
+      1,
+      0
+    ],
+    "directly_to": [
+      1,
+      0
+    ],
+    "to_main": [
+      1,
+      0
+    ],
+    "main_branch": [
+      1,
+      0
+    ],
+    "battery": [
+      1,
+      0
+    ],
+    "died": [
+      1,
+      0
+    ],
+    "mid": [
+      1,
+      0
+    ],
+    "call": [
+      1,
+      0
+    ],
+    "sorry": [
+      1,
+      0
+    ],
+    "got": [
+      2,
+      0
+    ],
+    "disconnected": [
+      1,
+      0
+    ],
+    "battery_died": [
+      1,
+      0
+    ],
+    "died_mid": [
+      1,
+      0
+    ],
+    "mid_call": [
+      1,
+      0
+    ],
+    "call_sorry": [
+      1,
+      0
+    ],
+    "sorry_i": [
+      1,
+      0
+    ],
+    "i_got": [
+      2,
+      0
+    ],
+    "got_disconnected": [
+      1,
+      0
+    ],
+    "wifi": [
+      1,
+      0
+    ],
+    "in": [
+      4,
+      0
+    ],
+    "slow": [
+      1,
+      0
+    ],
+    "wifi_in": [
+      1,
+      0
+    ],
+    "in_the": [
+      4,
+      0
+    ],
+    "lab_is": [
+      1,
+      0
+    ],
+    "is_slow": [
+      1,
+      0
+    ],
+    "slow_today": [
+      1,
+      0
+    ],
+    "weekend": [
+      1,
+      0
+    ],
+    "plans": [
+      1,
+      0
+    ],
+    "trekking": [
+      1,
+      0
+    ],
+    "near": [
+      1,
+      0
+    ],
+    "hills": [
+      1,
+      0
+    ],
+    "join": [
+      2,
+      0
+    ],
+    "us": [
+      1,
+      0
+    ],
+    "weekend_plans": [
+      1,
+      0
+    ],
+    "plans_trekking": [
+      1,
+      0
+    ],
+    "trekking_near": [
+      1,
+      0
+    ],
+    "near_the": [
+      1,
+      0
+    ],
+    "the_hills": [
+      1,
+      0
+    ],
+    "hills_join": [
+      1,
+      0
+    ],
+    "join_us": [
+      1,
+      0
+    ],
+    "can": [
+      3,
+      0
+    ],
+    "teacher": [
+      1,
+      0
+    ],
+    "extend": [
+      1,
+      0
+    ],
+    "deadline": [
+      1,
+      0
+    ],
+    "by": [
+      1,
+      0
+    ],
+    "two": [
+      1,
+      0
+    ],
+    "days": [
+      1,
+      0
+    ],
+    "can_teacher": [
+      1,
+      0
+    ],
+    "teacher_extend": [
+      1,
+      0
+    ],
+    "extend_the": [
+      1,
+      0
+    ],
+    "the_deadline": [
+      1,
+      0
+    ],
+    "deadline_by": [
+      1,
+      0
+    ],
+    "by_two": [
+      1,
+      0
+    ],
+    "two_days": [
+      1,
+      0
+    ],
+    "config": [
+      0,
+      1
+    ],
+    "piece": [
+      0,
+      1
+    ],
+    "of": [
+      1,
+      2
+    ],
+    "junk": [
+      0,
+      1
+    ],
+    "fix": [
+      0,
+      1
+    ],
+    "this_config": [
+      0,
+      1
+    ],
+    "config_is": [
+      0,
+      1
+    ],
+    "is_piece": [
+      0,
+      1
+    ],
+    "piece_of": [
+      0,
+      1
+    ],
+    "of_junk": [
+      0,
+      1
+    ],
+    "junk_fix": [
+      0,
+      1
+    ],
+    "fix_it": [
+      0,
+      1
+    ],
+    "congrats": [
+      2,
+      0
+    ],
+    "internship": [
+      1,
+      0
+    ],
+    "selection": [
+      1,
+      0
+    ],
+    "congrats_on": [
+      1,
+      0
+    ],
+    "the_internship": [
+      1,
+      0
+    ],
+    "internship_selection": [
+      1,
+      0
+    ],
+    "good": [
+      2,
+      0
+    ],
+    "morning": [
+      1,
+      0
+    ],
+    "everyone": [
+      3,
+      0
+    ],
+    "have": [
+      2,
+      0
+    ],
+    "productive": [
+      1,
+      0
+    ],
+    "day": [
+      2,
+      0
+    ],
+    "good_morning": [
+      1,
+      0
+    ],
+    "morning_everyone": [
+      1,
+      0
+    ],
+    "everyone_have": [
+      1,
+      0
+    ],
+    "have_a": [
+      2,
+      0
+    ],
+    "a_productive": [
+      1,
+      0
+    ],
+    "productive_day": [
+      1,
+      0
+    ],
+    "frontend": [
+      1,
+      0
+    ],
+    "looks": [
+      2,
+      0
+    ],
+    "mobile": [
+      1,
+      0
+    ],
+    "the_frontend": [
+      1,
+      0
+    ],
+    "frontend_looks": [
+      1,
+      0
+    ],
+    "looks_good": [
+      1,
+      0
+    ],
+    "good_on": [
+      1,
+      0
+    ],
+    "on_mobile": [
+      1,
+      0
+    ],
+    "mobile_also": [
+      1,
+      0
+    ],
+    "we": [
+      1,
+      0
+    ],
+    "move": [
+      1,
+      0
+    ],
+    "class": [
+      1,
+      0
+    ],
+    "can_we": [
+      1,
+      0
+    ],
+    "we_move": [
+      1,
+      0
+    ],
+    "move_the": [
+      1,
+      0
+    ],
+    "the_class": [
+      1,
+      0
+    ],
+    "class_to": [
+      1,
+      0
+    ],
+    "to_tomorrow": [
+      1,
+      0
+    ],
+    "new": [
+      1,
+      0
+    ],
+    "here": [
+      2,
+      0
+    ],
+    "introduce": [
+      1,
+      0
+    ],
+    "myself": [
+      1,
+      0
+    ],
+    "am_new": [
+      1,
+      0
+    ],
+    "new_here": [
+      1,
+      0
+    ],
+    "here_how": [
+      1,
+      0
+    ],
+    "i_introduce": [
+      1,
+      0
+    ],
+    "introduce_myself": [
+      1,
+      0
+    ],
+    "people": [
+      0,
+      1
+    ],
+    "from": [
+      0,
+      1
+    ],
+    "that": [
+      1,
+      1
+    ],
+    "state": [
+      0,
+      1
+    ],
+    "all": [
+      0,
+      1
+    ],
+    "criminals": [
+      0,
+      1
+    ],
+    "people_from": [
+      0,
+      1
+    ],
+    "from_that": [
+      0,
+      1
+    ],
+    "that_state": [
+      0,
+      1
+    ],
+    "state_are": [
+      0,
+      1
+    ],
+    "are_all": [
+      0,
+      1
+    ],
+    "all_criminals": [
+      0,
+      1
+    ],
+    "shut": [
+      0,
+      2
+    ],
+    "up": [
+      0,
+      1
+    ],
+    "bro": [
+      0,
+      1
+    ],
+    "know": [
+      1,
+      1
+    ],
+    "nothing": [
+      0,
+      1
+    ],
+    "shut_up": [
+      0,
+      1
+    ],
+    "up_bro": [
+      0,
+      1
+    ],
+    "bro_you": [
+      0,
+      1
+    ],
+    "you_know": [
+      0,
+      1
+    ],
+    "know_nothing": [
+      0,
+      1
+    ],
+    "results": [
+      1,
+      0
+    ],
+    "out": [
+      2,
+      0
+    ],
+    "results_are": [
+      1,
+      0
+    ],
+    "are_out": [
+      1,
+      0
+    ],
+    "out_congrats": [
+      1,
+      0
+    ],
+    "congrats_to": [
+      1,
+      0
+    ],
+    "to_everyone": [
+      1,
+      0
+    ],
+    "absolute": [
+      0,
+      1
+    ],
+    "garbage": [
+      0,
+      1
+    ],
+    "opinion": [
+      0,
+      1
+    ],
+    "as": [
+      0,
+      1
+    ],
+    "always": [
+      0,
+      1
+    ],
+    "absolute_garbage": [
+      0,
+      1
+    ],
+    "garbage_opinion": [
+      0,
+      1
+    ],
+    "opinion_as": [
+      0,
+      1
+    ],
+    "as_always": [
+      0,
+      1
+    ],
+    "print": [
+      1,
+      0
+    ],
+    "hello": [
+      1,
+      0
+    ],
+    "world": [
+      1,
+      0
+    ],
+    "working": [
+      2,
+      0
+    ],
+    "print_hello": [
+      1,
+      0
+    ],
+    "hello_world": [
+      1,
+      0
+    ],
+    "world_working": [
+      1,
+      0
+    ],
+    "working_fine": [
+      1,
+      0
+    ],
+    "fine_here": [
+      1,
+      0
+    ],
+    "wtf": [
+      0,
+      1
+    ],
+    "rubbish": [
+      0,
+      1
+    ],
+    "update": [
+      0,
+      1
+    ],
+    "wtf_is": [
+      0,
+      1
+    ],
+    "is_this": [
+      0,
+      1
+    ],
+    "this_rubbish": [
+      0,
+      1
+    ],
+    "rubbish_update": [
+      0,
+      1
+    ],
+    "playlist": [
+      1,
+      0
+    ],
+    "link": [
+      2,
+      0
+    ],
+    "lofi": [
+      1,
+      0
+    ],
+    "study": [
+      1,
+      0
+    ],
+    "music": [
+      1,
+      0
+    ],
+    "shared": [
+      1,
+      0
+    ],
+    "playlist_link": [
+      1,
+      0
+    ],
+    "link_for": [
+      1,
+      0
+    ],
+    "for_lofi": [
+      1,
+      0
+    ],
+    "lofi_study": [
+      1,
+      0
+    ],
+    "study_music": [
+      1,
+      0
+    ],
+    "music_shared": [
+      1,
+      0
+    ],
+    "happy": [
+      2,
+      0
+    ],
+    "birthday": [
+      1,
+      0
+    ],
+    "da": [
+      1,
+      0
+    ],
+    "great": [
+      1,
+      0
+    ],
+    "year": [
+      1,
+      0
+    ],
+    "happy_birthday": [
+      1,
+      0
+    ],
+    "birthday_da": [
+      1,
+      0
+    ],
+    "da_have": [
+      1,
+      0
+    ],
+    "a_great": [
+      1,
+      0
+    ],
+    "great_year": [
+      1,
+      0
+    ],
+    "regex": [
+      1,
+      0
+    ],
+    "feels": [
+      1,
+      0
+    ],
+    "like": [
+      1,
+      0
+    ],
+    "magic": [
+      1,
+      0
+    ],
+    "every": [
+      1,
+      1
+    ],
+    "time": [
+      2,
+      0
+    ],
+    "this_regex": [
+      1,
+      0
+    ],
+    "regex_feels": [
+      1,
+      0
+    ],
+    "feels_like": [
+      1,
+      0
+    ],
+    "like_magic": [
+      1,
+      0
+    ],
+    "magic_every": [
+      1,
+      0
+    ],
+    "every_time": [
+      1,
+      0
+    ],
+    "someone": [
+      1,
+      0
+    ],
+    "edited": [
+      1,
+      0
+    ],
+    "without": [
+      1,
+      0
+    ],
+    "telling": [
+      1,
+      0
+    ],
+    "me": [
+      1,
+      0
+    ],
+    "someone_edited": [
+      1,
+      0
+    ],
+    "edited_my": [
+      1,
+      0
+    ],
+    "my_code": [
+      2,
+      0
+    ],
+    "code_without": [
+      1,
+      0
+    ],
+    "without_telling": [
+      1,
+      0
+    ],
+    "telling_me": [
+      1,
+      0
+    ],
+    "thanks": [
+      2,
+      0
+    ],
+    "lot": [
+      1,
+      0
+    ],
+    "build": [
+      1,
+      0
+    ],
+    "thanks_a": [
+      1,
+      0
+    ],
+    "a_lot": [
+      1,
+      0
+    ],
+    "lot_this": [
+      1,
+      0
+    ],
+    "this_fixed": [
+      1,
+      0
+    ],
+    "fixed_my": [
+      1,
+      0
+    ],
+    "my_build": [
+      1,
+      0
+    ],
+    "build_error": [
+      1,
+      0
+    ],
+    "will": [
+      2,
+      0
+    ],
+    "review": [
+      1,
+      0
+    ],
+    "your": [
+      4,
+      1
+    ],
+    "pr": [
+      1,
+      0
+    ],
+    "after": [
+      2,
+      0
+    ],
+    "lunch": [
+      1,
+      0
+    ],
+    "i_will": [
+      2,
+      0
+    ],
+    "will_review": [
+      1,
+      0
+    ],
+    "review_your": [
+      1,
+      0
+    ],
+    "your_pr": [
+      1,
+      0
+    ],
+    "pr_after": [
+      1,
+      0
+    ],
+    "after_lunch": [
+      1,
+      0
+    ],
+    "feedback": [
+      1,
+      0
+    ],
+    "improve": [
+      1,
+      0
+    ],
+    "slides": [
+      1,
+      0
+    ],
+    "thanks_for": [
+      1,
+      0
+    ],
+    "for_the": [
+      1,
+      0
+    ],
+    "the_feedback": [
+      1,
+      0
+    ],
+    "feedback_i": [
+      1,
+      0
+    ],
+    "will_improve": [
+      1,
+      0
+    ],
+    "improve_the": [
+      1,
+      0
+    ],
+    "the_slides": [
+      1,
+      0
+    ],
+    "complete": [
+      0,
+      1
+    ],
+    "trash": [
+      0,
+      1
+    ],
+    "mouth": [
+      0,
+      1
+    ],
+    "forever": [
+      0,
+      1
+    ],
+    "are_complete": [
+      0,
+      1
+    ],
+    "complete_trash": [
+      0,
+      1
+    ],
+    "trash_shut": [
+      0,
+      1
+    ],
+    "shut_your": [
+      0,
+      1
+    ],
+    "your_mouth": [
+      0,
+      1
+    ],
+    "mouth_forever": [
+      0,
+      1
+    ],
+    "nice": [
+      1,
+      0
+    ],
+    "meme": [
+      1,
+      0
+    ],
+    "made": [
+      1,
+      0
+    ],
+    "haha": [
+      1,
+      0
+    ],
+    "nice_meme": [
+      1,
+      0
+    ],
+    "meme_that": [
+      1,
+      0
+    ],
+    "that_made": [
+      1,
+      0
+    ],
+    "made_my": [
+      1,
+      0
+    ],
+    "my_day": [
+      1,
+      0
+    ],
+    "day_haha": [
+      1,
+      0
+    ],
+    "ur": [
+      0,
+      1
+    ],
+    "stupid": [
+      0,
+      2
+    ],
+    "go": [
+      0,
+      1
+    ],
+    "read": [
+      1,
+      1
+    ],
+    "something": [
+      0,
+      1
+    ],
+    "first": [
+      1,
+      1
+    ],
+    "ur_stupid": [
+      0,
+      1
+    ],
+    "stupid_go": [
+      0,
+      1
+    ],
+    "go_read": [
+      0,
+      1
+    ],
+    "read_something": [
+      0,
+      1
+    ],
+    "something_first": [
+      0,
+      1
+    ],
+    "92": [
+      1,
+      0
+    ],
+    "exam": [
+      2,
+      0
+    ],
+    "share": [
+      4,
+      0
+    ],
+    "got_92": [
+      1,
+      0
+    ],
+    "92_in": [
+      1,
+      0
+    ],
+    "the_exam": [
+      1,
+      0
+    ],
+    "exam_happy": [
+      1,
+      0
+    ],
+    "happy_to": [
+      1,
+      0
+    ],
+    "to_share": [
+      1,
+      0
+    ],
+    "json": [
+      1,
+      0
+    ],
+    "format": [
+      1,
+      0
+    ],
+    "correct": [
+      1,
+      0
+    ],
+    "key": [
+      1,
+      0
+    ],
+    "order": [
+      1,
+      0
+    ],
+    "differs": [
+      1,
+      0
+    ],
+    "json_format": [
+      1,
+      0
+    ],
+    "format_is": [
+      1,
+      0
+    ],
+    "is_correct": [
+      1,
+      0
+    ],
+    "correct_but": [
+      1,
+      0
+    ],
+    "but_key": [
+      1,
+      0
+    ],
+    "key_order": [
+      1,
+      0
+    ],
+    "order_differs": [
+      1,
+      0
+    ],
+    "blog": [
+      1,
+      0
+    ],
+    "explained": [
+      1,
+      0
+    ],
+    "recursion": [
+      1,
+      0
+    ],
+    "clearly": [
+      1,
+      0
+    ],
+    "your_blog": [
+      1,
+      0
+    ],
+    "blog_explained": [
+      1,
+      0
+    ],
+    "explained_recursion": [
+      1,
+      0
+    ],
+    "recursion_clearly": [
+      1,
+      0
+    ],
+    "quick": [
+      1,
+      0
+    ],
+    "question": [
+      1,
+      0
+    ],
+    "about": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "range": [
+      1,
+      0
+    ],
+    "quick_question": [
+      1,
+      0
+    ],
+    "question_about": [
+      1,
+      0
+    ],
+    "about_index": [
+      1,
+      0
+    ],
+    "index_out": [
+      1,
+      0
+    ],
+    "out_of": [
+      1,
+      0
+    ],
+    "of_range": [
+      1,
+      0
+    ],
+    "range_error": [
+      1,
+      0
+    ],
+    "server": [
+      1,
+      0
+    ],
+    "down": [
+      1,
+      0
+    ],
+    "anyone": [
+      1,
+      0
+    ],
+    "else": [
+      1,
+      0
+    ],
+    "facing": [
+      1,
+      0
+    ],
+    "server_is": [
+      1,
+      0
+    ],
+    "is_down": [
+      1,
+      0
+    ],
+    "down_again": [
+      1,
+      0
+    ],
+    "again_anyone": [
+      1,
+      0
+    ],
+    "anyone_else": [
+      1,
+      0
+    ],
+    "else_facing": [
+      1,
+      0
+    ],
+    "facing_this": [
+      1,
+      0
+    ],
+    "which": [
+      1,
+      0
+    ],
+    "editor": [
+      1,
+      0
+    ],
+    "use": [
+      1,
+      0
+    ],
+    "vim": [
+      1,
+      0
+    ],
+    "vscode": [
+      1,
+      0
+    ],
+    "which_editor": [
+      1,
+      0
+    ],
+    "editor_do": [
+      1,
+      0
+    ],
+    "do_you": [
+      1,
+      0
+    ],
+    "you_use": [
+      1,
+      0
+    ],
+    "use_vim": [
+      1,
+      0
+    ],
+    "vim_or": [
+      1,
+      0
+    ],
+    "or_vscode": [
+      1,
+      0
+    ],
+    "chart": [
+      1,
+      0
+    ],
+    "labels": [
+      1,
+      0
+    ],
+    "overlapping": [
+      1,
+      0
+    ],
+    "bit": [
+      1,
+      0
+    ],
+    "the_chart": [
+      1,
+      0
+    ],
+    "chart_labels": [
+      1,
+      0
+    ],
+    "labels_are": [
+      1,
+      0
+    ],
+    "are_overlapping": [
+      1,
+      0
+    ],
+    "overlapping_a": [
+      1,
+      0
+    ],
+    "a_bit": [
+      1,
+      0
+    ],
+    "prefer": [
+      1,
+      0
+    ],
+    "python": [
+      1,
+      0
+    ],
+    "over": [
+      2,
+      0
+    ],
+    "java": [
+      1,
+      0
+    ],
+    "automation": [
+      1,
+      0
+    ],
+    "i_prefer": [
+      1,
+      0
+    ],
+    "prefer_python": [
+      1,
+      0
+    ],
+    "python_over": [
+      1,
+      0
+    ],
+    "over_java": [
+      1,
+      0
+    ],
+    "java_for": [
+      1,
+      0
+    ],
+    "for_automation": [
+      1,
+      0
+    ],
+    "hackathon": [
+      1,
+      0
+    ],
+    "starts": [
+      1,
+      0
+    ],
+    "friday": [
+      1,
+      0
+    ],
+    "register": [
+      1,
+      0
+    ],
+    "team": [
+      1,
+      0
+    ],
+    "hackathon_starts": [
+      1,
+      0
+    ],
+    "starts_on": [
+      1,
+      0
+    ],
+    "on_friday": [
+      1,
+      0
+    ],
+    "friday_register": [
+      1,
+      0
+    ],
+    "register_your": [
+      1,
+      0
+    ],
+    "your_team": [
+      1,
+      0
+    ],
+    "meeting": [
+      1,
+      0
+    ],
+    "at": [
+      1,
+      0
+    ],
+    "8pm": [
+      1,
+      0
+    ],
+    "google": [
+      1,
+      0
+    ],
+    "meet": [
+      1,
+      0
+    ],
+    "meeting_at": [
+      1,
+      0
+    ],
+    "at_8pm": [
+      1,
+      0
+    ],
+    "8pm_on": [
+      1,
+      0
+    ],
+    "on_google": [
+      1,
+      0
+    ],
+    "google_meet": [
+      1,
+      0
+    ],
+    "meet_everyone": [
+      1,
+      0
+    ],
+    "everyone_join": [
+      1,
+      0
+    ],
+    "syllabus": [
+      1,
+      0
+    ],
+    "uploaded": [
+      1,
+      0
+    ],
+    "drive": [
+      1,
+      0
+    ],
+    "check": [
+      1,
+      0
+    ],
+    "exam_syllabus": [
+      1,
+      0
+    ],
+    "syllabus_uploaded": [
+      1,
+      0
+    ],
+    "uploaded_to": [
+      1,
+      0
+    ],
+    "to_the": [
+      2,
+      0
+    ],
+    "the_drive": [
+      1,
+      0
+    ],
+    "drive_check": [
+      1,
+      0
+    ],
+    "hate": [
+      0,
+      1
+    ],
+    "one": [
+      0,
+      1
+    ],
+    "idiots": [
+      0,
+      1
+    ],
+    "get": [
+      0,
+      1
+    ],
+    "lost": [
+      0,
+      1
+    ],
+    "i_hate": [
+      0,
+      1
+    ],
+    "hate_every": [
+      0,
+      1
+    ],
+    "every_one": [
+      0,
+      1
+    ],
+    "one_of": [
+      0,
+      1
+    ],
+    "of_you": [
+      0,
+      1
+    ],
+    "you_idiots": [
+      0,
+      1
+    ],
+    "idiots_get": [
+      0,
+      1
+    ],
+    "get_lost": [
+      0,
+      1
+    ],
+    "markdown": [
+      1,
+      0
+    ],
+    "table": [
+      1,
+      0
+    ],
+    "not": [
+      3,
+      0
+    ],
+    "rendering": [
+      1,
+      0
+    ],
+    "preview": [
+      1,
+      0
+    ],
+    "markdown_table": [
+      1,
+      0
+    ],
+    "table_not": [
+      1,
+      0
+    ],
+    "not_rendering": [
+      1,
+      0
+    ],
+    "rendering_in": [
+      1,
+      0
+    ],
+    "the_preview": [
+      1,
+      0
+    ],
+    "github": [
+      1,
+      0
+    ],
+    "repo": [
+      1,
+      0
+    ],
+    "can_you": [
+      1,
+      0
+    ],
+    "you_share": [
+      1,
+      0
+    ],
+    "share_the": [
+      2,
+      0
+    ],
+    "the_github": [
+      1,
+      0
+    ],
+    "github_repo": [
+      1,
+      0
+    ],
+    "repo_link": [
+      1,
+      0
+    ],
+    "api": [
+      1,
+      0
+    ],
+    "returns": [
+      1,
+      0
+    ],
+    "200": [
+      1,
+      0
+    ],
+    "empty": [
+      1,
+      0
+    ],
+    "list": [
+      1,
+      0
+    ],
+    "the_api": [
+      1,
+      0
+    ],
+    "api_returns": [
+      1,
+      0
+    ],
+    "returns_200": [
+      1,
+      0
+    ],
+    "200_but": [
+      1,
+      0
+    ],
+    "but_empty": [
+      1,
+      0
+    ],
+    "empty_list": [
+      1,
+      0
+    ],
+    "tutorial": [
+      1,
+      0
+    ],
+    "saved": [
+      1,
+      0
+    ],
+    "semester": [
+      1,
+      0
+    ],
+    "this_tutorial": [
+      1,
+      0
+    ],
+    "tutorial_saved": [
+      1,
+      0
+    ],
+    "saved_my": [
+      1,
+      0
+    ],
+    "my_semester": [
+      1,
+      0
+    ],
+    "semester_project": [
+      1,
+      0
+    ],
+    "pin": [
+      1,
+      0
+    ],
+    "announcement": [
+      1,
+      0
+    ],
+    "group": [
+      1,
+      0
+    ],
+    "please_pin": [
+      1,
+      0
+    ],
+    "pin_the": [
+      1,
+      0
+    ],
+    "the_announcement": [
+      1,
+      0
+    ],
+    "announcement_in": [
+      1,
+      0
+    ],
+    "the_group": [
+      1,
+      0
+    ],
+    "notes": [
+      1,
+      0
+    ],
+    "pdf": [
+      1,
+      0
+    ],
+    "the_notes": [
+      1,
+      0
+    ],
+    "notes_pdf": [
+      1,
+      0
+    ],
+    "pdf_after": [
+      1,
+      0
+    ],
+    "after_the": [
+      1,
+      0
+    ],
+    "the_lecture": [
+      1,
+      0
+    ],
+    "works": [
+      1,
+      0
+    ],
+    "why": [
+      1,
+      0
+    ],
+    "code_works": [
+      1,
+      0
+    ],
+    "works_but": [
+      1,
+      0
+    ],
+    "but_i": [
+      2,
+      0
+    ],
+    "i_do": [
+      1,
+      0
+    ],
+    "do_not": [
+      1,
+      0
+    ],
+    "not_know": [
+      1,
+      0
+    ],
+    "know_why": [
+      1,
+      0
+    ],
+    "readme": [
+      1,
+      0
+    ],
+    "before": [
+      1,
+      0
+    ],
+    "asking": [
+      1,
+      0
+    ],
+    "questions": [
+      1,
+      0
+    ],
+    "read_the": [
+      1,
+      0
+    ],
+    "the_readme": [
+      1,
+      0
+    ],
+    "readme_before": [
+      1,
+      0
+    ],
+    "before_asking": [
+      1,
+      0
+    ],
+    "asking_questions": [
+      1,
+      0
+    ],
+    "docker": [
+      1,
+      0
+    ],
+    "container": [
+      1,
+      0
+    ],
+    "keeps": [
+      1,
+      1
+    ],
+    "restarting": [
+      1,
+      0
+    ],
+    "any": [
+      1,
+      0
+    ],
+    "ideas": [
+      1,
+      0
+    ],
+    "docker_container": [
+      1,
+      0
+    ],
+    "container_keeps": [
+      1,
+      0
+    ],
+    "keeps_restarting": [
+      1,
+      0
+    ],
+    "restarting_any": [
+      1,
+      0
+    ],
+    "any_ideas": [
+      1,
+      0
+    ],
+    "disagree": [
+      1,
+      0
+    ],
+    "respect": [
+      1,
+      0
+    ],
+    "point": [
+      1,
+      0
+    ],
+    "i_disagree": [
+      1,
+      0
+    ],
+    "disagree_but": [
+      1,
+      0
+    ],
+    "i_respect": [
+      1,
+      0
+    ],
+    "respect_your": [
+      1,
+      0
+    ],
+    "your_point": [
+      1,
+      0
+    ],
+    "install": [
+      1,
+      0
+    ],
+    "pandas": [
+      1,
+      0
+    ],
+    "windows": [
+      1,
+      0
+    ],
+    "i_install": [
+      1,
+      0
+    ],
+    "install_pandas": [
+      1,
+      0
+    ],
+    "pandas_on": [
+      1,
+      0
+    ],
+    "on_windows": [
+      1,
+      0
+    ],
+    "using": [
+      1,
+      0
+    ],
+    "fastapi": [
+      1,
+      0
+    ],
+    "and": [
+      1,
+      1
+    ],
+    "love": [
+      1,
+      0
+    ],
+    "first_time": [
+      1,
+      0
+    ],
+    "time_using": [
+      1,
+      0
+    ],
+    "using_fastapi": [
+      1,
+      0
+    ],
+    "fastapi_and": [
+      1,
+      0
+    ],
+    "and_i": [
+      1,
+      0
+    ],
+    "i_love": [
+      1,
+      0
+    ],
+    "love_it": [
+      1,
+      0
+    ],
+    "add": [
+      1,
+      0
+    ],
+    "dark": [
+      1,
+      0
+    ],
+    "mode": [
+      1,
+      0
+    ],
+    "website": [
+      1,
+      0
+    ],
+    "please_add": [
+      1,
+      0
+    ],
+    "add_dark": [
+      1,
+      0
+    ],
+    "dark_mode": [
+      1,
+      0
+    ],
+    "mode_to": [
+      1,
+      0
+    ],
+    "the_website": [
+      1,
+      0
+    ],
+    "annoying": [
+      0,
+      1
+    ],
+    "useless": [
+      0,
+      1
+    ],
+    "are_annoying": [
+      0,
+      1
+    ],
+    "annoying_and": [
+      0,
+      1
+    ],
+    "and_useless": [
+      0,
+      1
+    ],
+    "model": [
+      1,
+      0
+    ],
+    "accuracy": [
+      1,
+      0
+    ],
+    "low": [
+      1,
+      0
+    ],
+    "validation": [
+      1,
+      0
+    ],
+    "the_model": [
+      1,
+      0
+    ],
+    "model_accuracy": [
+      1,
+      0
+    ],
+    "accuracy_looks": [
+      1,
+      0
+    ],
+    "looks_low": [
+      1,
+      0
+    ],
+    "low_on": [
+      1,
+      0
+    ],
+    "on_validation": [
+      1,
+      0
+    ],
+    "take": [
+      0,
+      1
+    ],
+    "nobody": [
+      0,
+      1
+    ],
+    "asked": [
+      0,
+      1
+    ],
+    "stupid_take": [
+      0,
+      1
+    ],
+    "take_nobody": [
+      0,
+      1
+    ],
+    "nobody_asked": [
+      0,
+      1
+    ],
+    "asked_you": [
+      0,
+      1
+    ],
+    "screen": [
+      1,
+      0
+    ],
+    "laptop": [
+      1,
+      0
+    ],
+    "screen_share": [
+      1,
+      0
+    ],
+    "share_not": [
+      1,
+      0
+    ],
+    "not_working": [
+      1,
+      0
+    ],
+    "working_on": [
+      1,
+      0
+    ],
+    "on_my": [
+      1,
+      0
+    ],
+    "my_laptop": [
+      1,
+      0
+    ],
+    "app": [
+      0,
+      1
+    ],
+    "crashing": [
+      0,
+      1
+    ],
+    "damn_this": [
+      0,
+      1
+    ],
+    "this_app": [
+      0,
+      1
+    ],
+    "app_keeps": [
+      0,
+      1
+    ],
+    "keeps_crashing": [
+      0,
+      1
+    ],
+    "coffee": [
+      1,
+      0
+    ],
+    "break": [
+      1,
+      0
+    ],
+    "lets": [
+      1,
+      0
+    ],
+    "continue": [
+      1,
+      0
+    ],
+    "sprint": [
+      1,
+      0
+    ],
+    "coffee_break": [
+      1,
+      0
+    ],
+    "break_over": [
+      1,
+      0
+    ],
+    "over_lets": [
+      1,
+      0
+    ],
+    "lets_continue": [
+      1,
+      0
+    ],
+    "continue_the": [
+      1,
+      0
+    ],
+    "the_sprint": [
+      1,
+      0
+    ]
+  },
+  "dataset_version": "seed42-edf4350237",
+  "split": {
+    "seed": 42,
+    "train": 70,
+    "validation": 15,
+    "test": 15
+  },
+  "metrics": {
+    "accuracy": 0.8666666666666667,
+    "precision": 0.9285714285714286,
+    "recall": 0.6666666666666666,
+    "f1": 0.7115384615384615
+  },
+  "confusion_matrix": {
+    "labels": [
+      "non_toxic",
+      "toxic"
+    ],
+    "matrix": [
+      [
+        12,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ]
+  },
+  "per_label": {
+    "non_toxic": {
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1": 0.923076923076923,
+      "support": 12
+    },
+    "toxic": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5,
+      "support": 3
+    }
+  },
+  "training_date": "2026-10-06T07:28:42.863376+00:00"
+}

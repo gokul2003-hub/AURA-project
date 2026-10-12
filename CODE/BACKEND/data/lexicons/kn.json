@@ -1,0 +1,32 @@
+{
+ "language": "kn",
+ "language_name": "Kannada",
+ "script": "Kannada",
+ "notes": "Small curated heuristic lexicon (demo/dev quality). Not benchmark data.",
+ "categories": {
+  "toxic": [
+   "ನಿನ್ನನ್ನು ದ್ವೇಷಿಸುತ್ತೇನೆ",
+   "ನೀನು ಕೆಟ್ಟವನು"
+  ],
+  "severe_toxic": [
+   "ನಾನು ನಿನ್ನನ್ನು ಕೊಲ್ಲುತ್ತೇನೆ"
+  ],
+  "obscene": [
+   "ಹೇಡಿ",
+   "ಅಶ್ಲೀಲ"
+  ],
+  "threat": [
+   "ನಾನು ನಿನ್ನನ್ನು ಹೊಡೆಯುತ್ತೇನೆ",
+   "ಹೊಡೆಯುತ್ತೇನೆ"
+  ],
+  "insult": [
+   "ಮೂರ್ಖ",
+   "ಹುಚ್ಚ",
+   "ದಡ್ಡ",
+   "ನೀನು ಒಂದು ಮೂರ್ಖ"
+  ],
+  "identity_hate": [
+   "ನಿನ್ನ ಜಾತಿಯವರೆಲ್ಲಾ ಕೆಟ್ಟವರು"
+  ]
+ }
+}

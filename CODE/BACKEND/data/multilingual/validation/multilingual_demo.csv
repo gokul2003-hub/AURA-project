@@ -1,0 +1,25 @@
+id,text,language,language_name,script,toxic,severe_toxic,obscene,threat,insult,identity_hate,source,split
+5,"You are stupid and useless, I hate you.",en,English,Latin,1,0,0,0,1,0,curated_demo,validation
+6,I will find you and hurt you tomorrow.,en,English,Latin,1,0,0,1,0,0,curated_demo,validation
+13,"நீ ஒரு முட்டாள், உன்னை வெறுக்கிறேன்.",ta,Tamil,Tamil,1,0,0,0,1,0,curated_demo,validation
+14,"நான் உன்னை அடிப்பேன், கவனமாக இரு.",ta,Tamil,Tamil,1,0,0,1,0,0,curated_demo,validation
+21,"nee vera level mudhalai, unnai verukkiren.",ta-Latn,Tanglish,Latin,1,0,0,0,1,0,curated_demo,validation
+22,"naan unnai adippen, careful-a iru.",ta-Latn,Tanglish,Latin,1,0,0,1,0,0,curated_demo,validation
+29,"तुम बहुत बेवकूफ हो, मैं तुमसे नफरत करता हूँ.",hi,Hindi,Devanagari,1,0,0,0,1,0,curated_demo,validation
+30,मैं तुम्हें कल ढूंढ लूंगा और मार दूंगा.,hi,Hindi,Devanagari,1,0,0,1,0,1,curated_demo,validation
+37,"నువ్వు ఒక పిచ్చివాడివి, నిన్ను ద్వేషిస్తున్నాను.",te,Telugu,Telugu,1,0,0,0,1,0,curated_demo,validation
+38,"నేను నిన్ను కొడతాను, జాగ్రత్త.",te,Telugu,Telugu,1,0,0,1,0,0,curated_demo,validation
+45,"നീ ഒരു വിഡ്ഢിയാണ്, ഞാൻ നിന്നെ വെറുക്കുന്നു.",ml,Malayalam,Malayalam,1,0,0,0,1,0,curated_demo,validation
+46,"ഞാൻ നിന്നെ അടിക്കും, ശ്രദ്ധിക്കൂ.",ml,Malayalam,Malayalam,1,0,0,1,0,0,curated_demo,validation
+53,"ನೀನು ಒಂದು ಮೂರ್ಖ, ನಿನ್ನನ್ನು ದ್ವೇಷಿಸುತ್ತೇನೆ.",kn,Kannada,Kannada,1,0,0,0,1,0,curated_demo,validation
+54,"ನಾನು ನಿನ್ನನ್ನು ಹೊಡೆಯುತ್ತೇನೆ, ಎಚ್ಚರವಾಗಿರು.",kn,Kannada,Kannada,1,0,0,1,0,0,curated_demo,validation
+61,"তুমি একজন বোকা, আমি তোমাকে ঘৃণা করি.",bn,Bengali,Bengali,1,0,0,0,1,0,curated_demo,validation
+62,আমি তোমাকে আগামীকাল খুঁজে বের করে মারে বসব.,bn,Bengali,Bengali,1,0,0,1,0,1,curated_demo,validation
+69,"तू एक मूर्ख आहेस, मी तुला नफरत करतो.",mr,Marathi,Devanagari,1,0,0,0,1,0,curated_demo,validation
+70,मी तुला उद्या शोधून मारीन.,mr,Marathi,Devanagari,1,0,0,1,0,1,curated_demo,validation
+77,"તું એક મૂર્ખ છે, હું તને નફરત કરું છું.",gu,Gujarati,Gujarati,1,0,0,0,1,0,curated_demo,validation
+78,હું તને આવતીકાલે શોધીને મારી નાખીશ.,gu,Gujarati,Gujarati,1,0,0,1,0,1,curated_demo,validation
+85,"ਤੂੰ ਇੱਕ ਮੂਰਖ ਹੈਂ, ਮੈਂ ਤੈਨੂੰ ਨਫ਼ਰਤ ਕਰਦਾ ਹਾਂ.",pa,Punjabi,Gurmukhi,1,0,0,0,1,0,curated_demo,validation
+86,ਮੈਂ ਤੈਨੂੰ ਕੱਲ੍ਹ ਲੱਭ ਕੇ ਮਾਰ ਦਾਵਾਂਗਾ.,pa,Punjabi,Gurmukhi,1,0,0,1,0,1,curated_demo,validation
+93,تم ایک بیوقوف ہو، میں تم سے نفرت کرتا ہوں.,ur,Urdu,Arabic,1,0,0,0,1,0,curated_demo,validation
+94,میں کل تمہیں ڈھونڈ کر مار ڈالوں گا.,ur,Urdu,Arabic,1,0,0,1,0,1,curated_demo,validation

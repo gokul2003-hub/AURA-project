@@ -1,0 +1,138 @@
+id,text,language,language_name,script,toxic,severe_toxic,obscene,threat,insult,identity_hate,source,split
+113,நீ எப்படி இருக்கிறாய்? நன்றாக இருக்கிறேன்.,ta,Tamil,Tamil,0,0,0,0,0,0,curated_demo,train
+43,who wants to pair program on the assignment,en,English,Latin,0,0,0,0,0,0,demo,train
+3,can you share the github repo link,en,English,Latin,0,0,0,0,0,0,demo,train
+159,"ನೀನು ಹುಚ್ಚ, ಯಾರೂ ನಿನ್ನನ್ನು ಇಷ್ಟಪಡುವುದಿಲ್ಲ.",kn,Kannada,Kannada,1,0,0,0,1,0,curated_demo,train
+117,"நீ ஒரு முட்டாள், உன்னை வெறுக்கிறேன்.",ta,Tamil,Tamil,1,0,0,0,1,0,curated_demo,train
+13,I got 92 in the exam happy to share,en,English,Latin,0,0,0,0,0,0,demo,train
+80,stupid take nobody asked you,en,English,Latin,1,0,0,0,1,0,demo,train
+14,add more test cases for the API,en,English,Latin,0,0,0,0,0,0,demo,train
+91,damn this app keeps crashing,en,English,Latin,1,0,1,0,0,0,demo,train
+70,found the typo in the question paper,en,English,Latin,0,0,0,0,0,0,demo,train
+4,bro the output is wrong check line 42,en,English,Latin,0,0,0,0,0,0,demo,train
+188,"ਦੋਸਤੋ, ਸਭ ਕਿਵੇਂ ਹੋ?",pa,Punjabi,Gurmukhi,0,0,0,0,0,0,curated_demo,train
+31,the frontend looks good on mobile also,en,English,Latin,0,0,0,0,0,0,demo,train
+168,"তুমি খারাপ লোক, কেউ তোমাকে ভালোবায় না.",bn,Bengali,Bengali,1,0,0,0,1,0,curated_demo,train
+172,"मित्रांनो, सर्व कसे आहात?",mr,Marathi,Devanagari,0,0,0,0,0,0,curated_demo,train
+16,error while importing sqlite3 pls help,en,English,Latin,0,0,0,0,0,0,demo,train
+162,"আজ আবহাও ভালো, বাইরে যাওয়া যাবে.",bn,Bengali,Bengali,0,0,0,0,0,0,curated_demo,train
+37,json format is correct but key order differs,en,English,Latin,0,0,0,0,0,0,demo,train
+137,నువ్వు ఎలా ఉన్నావు? నేను బాగున్నాను.,te,Telugu,Telugu,0,0,0,0,0,0,curated_demo,train
+45,thanks for the feedback I will improve the slides,en,English,Latin,0,0,0,0,0,0,demo,train
+6,how do I install pandas on windows,en,English,Latin,0,0,0,0,0,0,demo,train
+54,unit tests pass locally but fail on CI,en,English,Latin,0,0,0,0,0,0,demo,train
+85,clown take tbh go outside,en,English,Latin,1,0,0,0,1,0,demo,train
+81,shut up bro you know nothing,en,English,Latin,1,0,0,0,1,0,demo,train
+65,queue implementation using linked list done,en,English,Latin,0,0,0,0,0,0,demo,train
+74,what does the seed value change exactly,en,English,Latin,0,0,0,0,0,0,demo,train
+38,good morning everyone have a productive day,en,English,Latin,0,0,0,0,0,0,demo,train
+129,"नमस्ते, आप कैसे हैं?",hi,Hindi,Devanagari,0,0,0,0,0,0,curated_demo,train
+122,"iniku veyil nalla irukku, velila poidalam.",ta-Latn,Tanglish,Latin,0,0,0,0,0,0,curated_demo,train
+79,you are such an idiot lol,en,English,Latin,1,0,0,0,1,0,demo,train
+163,আপনার সাহায্যের জন্য ধন্যবাদ.,bn,Bengali,Bengali,0,0,0,0,0,0,curated_demo,train
+67,the chart labels are overlapping a bit,en,English,Latin,0,0,0,0,0,0,demo,train
+130,"आज मौसम अच्छा है, चलो बाहर चलते हैं.",hi,Hindi,Devanagari,0,0,0,0,0,0,curated_demo,train
+175,"तू वाईट माणूस आहेस, गप्प बस.",mr,Marathi,Devanagari,1,0,0,0,1,0,curated_demo,train
+33,I am new here how do I introduce myself,en,English,Latin,0,0,0,0,0,0,demo,train
+53,nice meme that made my day haha,en,English,Latin,0,0,0,0,0,0,demo,train
+195,آپ کی مدد کا شکریہ.,ur,Urdu,Arabic,0,0,0,0,0,0,curated_demo,train
+146,"ഇന്ന് കാലാവസ്ഥ നല്ലതാണ്, പുറത്തിറങ്ങാം.",ml,Malayalam,Malayalam,0,0,0,0,0,0,curated_demo,train
+11,please explain the split ratio again,en,English,Latin,0,0,0,0,0,0,demo,train
+61,hackathon starts on friday register your team,en,English,Latin,0,0,0,0,0,0,demo,train
+110,I will find you and hurt you tomorrow.,en,English,Latin,1,0,0,1,0,0,curated_demo,train
+48,this regex feels like magic every time,en,English,Latin,0,0,0,0,0,0,demo,train
+119,"நீ பொறுக்கி, உனக்கு ஒழுக்கமே இல்லை.",ta,Tamil,Tamil,1,0,1,0,1,0,curated_demo,train
+106,"The weather is nice today, let us go for a walk.",en,English,Latin,0,0,0,0,0,0,curated_demo,train
+196,دوستو، سب کیسے ہیں؟,ur,Urdu,Arabic,0,0,0,0,0,0,curated_demo,train
+131,आपकी मदद के लिए धन्यवाद.,hi,Hindi,Devanagari,0,0,0,0,0,0,curated_demo,train
+144,"నువ్వు ఒక వెంగలి, నోరు ముయ్.",te,Telugu,Telugu,1,0,0,0,1,0,curated_demo,train
+104,you are stupid and I will hurt you,en,English,Latin,1,0,0,0,0,0,text,train
+156,"ಸ್ನೇಹಿತರೇ, ಎಲ್ಲರೂ ಹೇಗಿದ್ದೀರಾ?",kn,Kannada,Kannada,0,0,0,0,0,0,curated_demo,train
+62,I prefer python over java for automation,en,English,Latin,0,0,0,0,0,0,demo,train
+1,super explanation da thanks,en,English,Latin,0,0,0,0,0,0,demo,train
+197,تم ایک بیوقوف ہو، میں تم سے نفرت کرتا ہوں.,ur,Urdu,Arabic,1,0,0,0,1,0,curated_demo,train
+17,this tutorial saved my semester project,en,English,Latin,0,0,0,0,0,0,demo,train
+152,"നീ ഒരു കാപ്പിരിയാണ്, നിശ്ശബ്ദനാകൂ.",ml,Malayalam,Malayalam,1,0,0,0,1,0,curated_demo,train
+105,"Hello, how are you today?",en,English,Latin,0,0,0,0,0,0,curated_demo,train
+114,"இன்று வானிலை நன்றாக உள்ளது, வெளியே செல்லலாம்.",ta,Tamil,Tamil,0,0,0,0,0,0,curated_demo,train
+194,آج موسم اچھا ہے، باہر چلتے ہیں.,ur,Urdu,Arabic,0,0,0,0,0,0,curated_demo,train
+157,"ನೀನು ಒಂದು ಮೂರ್ಖ, ನಿನ್ನನ್ನು ದ್ವೇಷಿಸುತ್ತೇನೆ.",kn,Kannada,Kannada,1,0,0,0,1,0,curated_demo,train
+136,"तू एक मूर्ख है, कोई तुमसे बात नहीं करना चाहता.",hi,Hindi,Devanagari,1,0,0,0,1,0,curated_demo,train
+39,please pin the announcement in the group,en,English,Latin,0,0,0,0,0,0,demo,train
+126,"naan unnai adippen, careful-a iru.",ta-Latn,Tanglish,Latin,1,0,0,1,0,0,curated_demo,train
+44,screen share not working on my laptop,en,English,Latin,0,0,0,0,0,0,demo,train
+161,আপনি কেমন আছেন? আমি ভালো আছি.,bn,Bengali,Bengali,0,0,0,0,0,0,curated_demo,train
+115,உங்கள் உதவிக்கு நன்றி.,ta,Tamil,Tamil,0,0,0,0,0,0,curated_demo,train
+20,the model accuracy looks low on validation,en,English,Latin,0,0,0,0,0,0,demo,train
+15,deploy pannala nu theriyala can anyone help,en,English,Latin,0,0,0,0,0,0,demo,train
+178,"આજે હવામાન સારું છે, બહાર જઈએ.",gu,Gujarati,Gujarati,0,0,0,0,0,0,curated_demo,train
+142,"నేను నిన్ను కొడతాను, జాగ్రత్త.",te,Telugu,Telugu,1,0,0,1,0,0,curated_demo,train
+107,Thank you for your help with the project.,en,English,Latin,0,0,0,0,0,0,curated_demo,train
+66,is the lab tomorrow or is it cancelled,en,English,Latin,0,0,0,0,0,0,demo,train
+173,"तू एक मूर्ख आहेस, मी तुला नफरत करतो.",mr,Marathi,Devanagari,1,0,0,0,1,0,curated_demo,train
+108,"Hello friends, have a great day.",en,English,Latin,0,0,0,0,0,0,curated_demo,train
+47,markdown table not rendering in the preview,en,English,Latin,0,0,0,0,0,0,demo,train
+96,come to the ground and see what happens,en,English,Latin,1,0,0,1,0,0,demo,train
+77,congrats on the internship selection,en,English,Latin,0,0,0,0,0,0,demo,train
+55,reading the docs for numpy right now,en,English,Latin,0,0,0,0,0,0,demo,train
+140,"స్నేహితులారా, అందరూ ఎలా ఉన్నారు?",te,Telugu,Telugu,0,0,0,0,0,0,curated_demo,train
+128,"nee kuppa payyan, yarum unna virumbala.",ta-Latn,Tanglish,Latin,1,0,0,0,1,0,curated_demo,train
+171,तुमच्या मदतीबद्दल धन्यवाद.,mr,Marathi,Devanagari,0,0,0,0,0,0,curated_demo,train
+109,"You are stupid and useless, I hate you.",en,English,Latin,1,0,0,0,1,0,curated_demo,train
+116,"நண்பர்களே, அனைவரும் நல்லபடியாக இருக்கிறீர்களா?",ta,Tamil,Tamil,0,0,0,0,0,0,curated_demo,train
+174,मी तुला उद्या शोधून मारीन.,mr,Marathi,Devanagari,1,0,0,1,0,1,curated_demo,train
+34,playlist link for lofi study music shared,en,English,Latin,0,0,0,0,0,0,demo,train
+19,which editor do you use vim or vscode,en,English,Latin,0,0,0,0,0,0,demo,train
+151,"നീ ഒരു പൊട്ടനാണ്, ആരും നിന്നെ ഇഷ്ടപ്പെടുന്നില്ല.",ml,Malayalam,Malayalam,1,0,0,0,1,0,curated_demo,train
+125,"nee vera level mudhalai, unnai verukkiren.",ta-Latn,Tanglish,Latin,1,0,0,0,1,0,curated_demo,train
+176,"तू कायमचीगैरसमजूत आहेस, कोण तुला बोलत नाही.",mr,Marathi,Devanagari,1,0,0,0,1,0,curated_demo,train
+64,thanks a lot this fixed my build error,en,English,Latin,0,0,0,0,0,0,demo,train
+84,absolute garbage opinion as always,en,English,Latin,1,0,0,0,1,0,demo,train
+190,ਮੈਂ ਤੈਨੂੰ ਕੱਲ੍ਹ ਲੱਭ ਕੇ ਮਾਰ ਦਾਵਾਂਗਾ.,pa,Punjabi,Gurmukhi,1,0,0,1,0,1,curated_demo,train
+149,"നീ ഒരു വിഡ്ഢിയാണ്, ഞാൻ നിന്നെ വെറുക്കുന്നു.",ml,Malayalam,Malayalam,1,0,0,0,1,0,curated_demo,train
+73,wifi in the lab is slow today,en,English,Latin,0,0,0,0,0,0,demo,train
+28,is this the same dataset from kaggle,en,English,Latin,0,0,0,0,0,0,demo,train
+185,ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ? ਮੈਂ ਠੀਕ ਹਾਂ.,pa,Punjabi,Gurmukhi,0,0,0,0,0,0,curated_demo,train
+166,আমি তোমাকে আগামীকাল খুঁজে বের করে মারে বসব.,bn,Bengali,Bengali,1,0,0,1,0,1,curated_demo,train
+52,the API returns 200 but empty list,en,English,Latin,0,0,0,0,0,0,demo,train
+200,تم وابرن ہو، کوئی تمہیں پسند نہیں کرتا.,ur,Urdu,Arabic,1,0,0,0,1,0,curated_demo,train
+5,nice UI the purple theme looks clean,en,English,Latin,0,0,0,0,0,0,demo,train
+30,lunch time bye guys see you after one hour,en,English,Latin,0,0,0,0,0,0,demo,train
+184,"તું નાલાયક છે, કોઈ તને ગમતું નથી.",gu,Gujarati,Gujarati,1,0,0,0,1,0,curated_demo,train
+100,I hate every one of you idiots get lost,en,English,Latin,1,1,0,0,1,0,demo,train
+99,you are complete trash shut your mouth forever,en,English,Latin,1,1,0,0,1,0,demo,train
+132,"दोस्तों, सब लोग कैसे हैं?",hi,Hindi,Devanagari,0,0,0,0,0,0,curated_demo,train
+124,"nanbargale, ellarum nalla irukkingala?",ta-Latn,Tanglish,Latin,0,0,0,0,0,0,curated_demo,train
+199,تم ایک خراب آدمی ہو، خاموش ہو جاؤ.,ur,Urdu,Arabic,1,0,0,0,1,0,curated_demo,train
+135,"तुम कमीने हो, बंद हो जाओ.",hi,Hindi,Devanagari,1,0,1,0,1,0,curated_demo,train
+187,ਤੁਹਾਡੀ ਮਦਦ ਲਈ ਧੰਨਵਾਦ.,pa,Punjabi,Gurmukhi,0,0,0,0,0,0,curated_demo,train
+134,मैं तुम्हें कल ढूंढ लूंगा और मार दूंगा.,hi,Hindi,Devanagari,1,0,0,1,0,1,curated_demo,train
+127,"nee pazhu thaai, unakku ozhukkame illa.",ta-Latn,Tanglish,Latin,1,0,1,0,1,0,curated_demo,train
+49,can teacher extend the deadline by two days,en,English,Latin,0,0,0,0,0,0,demo,train
+138,"ఈరోజు వాతావరణం బాగుంది, బయటకు వెళ్దాం.",te,Telugu,Telugu,0,0,0,0,0,0,curated_demo,train
+139,మీ సహాయానికి ధన్యవాదాలు.,te,Telugu,Telugu,0,0,0,0,0,0,curated_demo,train
+150,"ഞാൻ നിന്നെ അടിക്കും, ശ്രദ്ധിക്കൂ.",ml,Malayalam,Malayalam,1,0,0,1,0,0,curated_demo,train
+180,"મિત્રો, બધા કેમ છો?",gu,Gujarati,Gujarati,0,0,0,0,0,0,curated_demo,train
+69,my code works but I do not know why,en,English,Latin,0,0,0,0,0,0,demo,train
+22,can we move the class to tomorrow,en,English,Latin,0,0,0,0,0,0,demo,train
+82,what a dumb comment honestly,en,English,Latin,1,0,0,0,1,0,demo,train
+78,shall we start the group discussion now,en,English,Latin,0,0,0,0,0,0,demo,train
+10,the docs are confusing but the code is fine,en,English,Latin,0,0,0,0,0,0,demo,train
+83,you are annoying and useless,en,English,Latin,1,0,0,0,1,0,demo,train
+165,"তুমি একজন বোকা, আমি তোমাকে ঘৃণা করি.",bn,Bengali,Bengali,1,0,0,0,1,0,curated_demo,train
+123,unga udaviku nandri.,ta-Latn,Tanglish,Latin,0,0,0,0,0,0,curated_demo,train
+90,hell of a bad release honestly,en,English,Latin,1,0,1,0,0,0,demo,train
+35,exam syllabus uploaded to the drive check,en,English,Latin,0,0,0,0,0,0,demo,train
+86,ur stupid go read something first,en,English,Latin,1,0,0,0,1,0,demo,train
+160,"ನೀನು ಒಂದು ದಡ್ಡ, ಮೌನವಾಗಿರು.",kn,Kannada,Kannada,1,0,0,0,1,0,curated_demo,train
+46,weekend plans trekking near the hills join us,en,English,Latin,0,0,0,0,0,0,demo,train
+95,watch your back at school bro,en,English,Latin,1,0,0,1,0,0,demo,train
+42,I fixed the bug it was a missing return statement,en,English,Latin,0,0,0,0,0,0,demo,train
+94,I will find you and break your phone,en,English,Latin,1,0,0,1,0,0,demo,train
+120,"நீ ஒரு பைத்தியம், உன்னை யாரும் விரும்புவதில்லை.",ta,Tamil,Tamil,1,0,0,0,1,0,curated_demo,train
+164,"বন্ধুরা, সবাই কেমন আছো?",bn,Bengali,Bengali,0,0,0,0,0,0,curated_demo,train
+179,તમારી મદદ માટે આભાર.,gu,Gujarati,Gujarati,0,0,0,0,0,0,curated_demo,train
+26,link is broken please update the docs,en,English,Latin,0,0,0,0,0,0,demo,train
+181,"તું એક મૂર્ખ છે, હું તને નફરત કરું છું.",gu,Gujarati,Gujarati,1,0,0,0,1,0,curated_demo,train
+148,"സുഹൃത്തുക്കളേ, എല്ലാവരും സുഖമാണോ?",ml,Malayalam,Malayalam,0,0,0,0,0,0,curated_demo,train
+75,I will review your PR after lunch,en,English,Latin,0,0,0,0,0,0,demo,train

@@ -1,0 +1,1348 @@
+{
+  "model_name": "multinomial_nb_baseline",
+  "model_version": "baseline_v1",
+  "variant": "baseline",
+  "seed": 42,
+  "bigrams": false,
+  "tokenizer": "word_unigram",
+  "smoothing": 1.0,
+  "classes": [
+    "non_toxic",
+    "toxic"
+  ],
+  "vocab_size": 319,
+  "class_totals": [
+    414,
+    80
+  ],
+  "class_doc_counts": [
+    57,
+    13
+  ],
+  "class_log_prior": [
+    -0.21622310846963594,
+    -1.6376087894007967
+  ],
+  "feature_counts": {
+    "who": [
+      1,
+      0
+    ],
+    "wants": [
+      1,
+      0
+    ],
+    "to": [
+      7,
+      0
+    ],
+    "pair": [
+      1,
+      0
+    ],
+    "program": [
+      1,
+      0
+    ],
+    "on": [
+      8,
+      0
+    ],
+    "the": [
+      29,
+      0
+    ],
+    "assignment": [
+      1,
+      0
+    ],
+    "i": [
+      15,
+      1
+    ],
+    "fixed": [
+      2,
+      0
+    ],
+    "bug": [
+      1,
+      0
+    ],
+    "it": [
+      3,
+      1
+    ],
+    "was": [
+      1,
+      0
+    ],
+    "a": [
+      5,
+      0
+    ],
+    "missing": [
+      1,
+      0
+    ],
+    "return": [
+      1,
+      0
+    ],
+    "statement": [
+      1,
+      0
+    ],
+    "so": [
+      1,
+      1
+    ],
+    "damn": [
+      0,
+      2
+    ],
+    "boring": [
+      0,
+      1
+    ],
+    "lecture": [
+      1,
+      1
+    ],
+    "today": [
+      1,
+      1
+    ],
+    "docs": [
+      1,
+      0
+    ],
+    "are": [
+      3,
+      4
+    ],
+    "confusing": [
+      1,
+      0
+    ],
+    "but": [
+      5,
+      0
+    ],
+    "code": [
+      3,
+      0
+    ],
+    "is": [
+      6,
+      2
+    ],
+    "fine": [
+      2,
+      0
+    ],
+    "lab": [
+      2,
+      0
+    ],
+    "tomorrow": [
+      2,
+      0
+    ],
+    "or": [
+      2,
+      0
+    ],
+    "cancelled": [
+      1,
+      0
+    ],
+    "git": [
+      1,
+      0
+    ],
+    "merge": [
+      1,
+      0
+    ],
+    "conflict": [
+      1,
+      0
+    ],
+    "again": [
+      3,
+      0
+    ],
+    "how": [
+      3,
+      0
+    ],
+    "do": [
+      5,
+      0
+    ],
+    "resolve": [
+      1,
+      0
+    ],
+    "this": [
+      5,
+      3
+    ],
+    "worked": [
+      1,
+      0
+    ],
+    "for": [
+      4,
+      0
+    ],
+    "my": [
+      7,
+      0
+    ],
+    "project": [
+      2,
+      0
+    ],
+    "also": [
+      2,
+      0
+    ],
+    "library": [
+      1,
+      0
+    ],
+    "closed": [
+      1,
+      0
+    ],
+    "early": [
+      1,
+      0
+    ],
+    "am": [
+      2,
+      0
+    ],
+    "heading": [
+      1,
+      0
+    ],
+    "home": [
+      1,
+      0
+    ],
+    "error": [
+      3,
+      0
+    ],
+    "while": [
+      1,
+      0
+    ],
+    "importing": [
+      1,
+      0
+    ],
+    "sqlite3": [
+      1,
+      0
+    ],
+    "pls": [
+      1,
+      0
+    ],
+    "help": [
+      1,
+      0
+    ],
+    "you": [
+      2,
+      6
+    ],
+    "such": [
+      0,
+      1
+    ],
+    "an": [
+      0,
+      1
+    ],
+    "idiot": [
+      0,
+      1
+    ],
+    "lol": [
+      0,
+      1
+    ],
+    "what": [
+      1,
+      0
+    ],
+    "does": [
+      1,
+      0
+    ],
+    "seed": [
+      1,
+      0
+    ],
+    "value": [
+      1,
+      0
+    ],
+    "change": [
+      1,
+      0
+    ],
+    "exactly": [
+      1,
+      0
+    ],
+    "please": [
+      4,
+      0
+    ],
+    "explain": [
+      1,
+      0
+    ],
+    "split": [
+      1,
+      0
+    ],
+    "ratio": [
+      1,
+      0
+    ],
+    "don't": [
+      1,
+      0
+    ],
+    "push": [
+      1,
+      0
+    ],
+    "directly": [
+      1,
+      0
+    ],
+    "main": [
+      1,
+      0
+    ],
+    "branch": [
+      1,
+      0
+    ],
+    "battery": [
+      1,
+      0
+    ],
+    "died": [
+      1,
+      0
+    ],
+    "mid": [
+      1,
+      0
+    ],
+    "call": [
+      1,
+      0
+    ],
+    "sorry": [
+      1,
+      0
+    ],
+    "got": [
+      2,
+      0
+    ],
+    "disconnected": [
+      1,
+      0
+    ],
+    "wifi": [
+      1,
+      0
+    ],
+    "in": [
+      4,
+      0
+    ],
+    "slow": [
+      1,
+      0
+    ],
+    "weekend": [
+      1,
+      0
+    ],
+    "plans": [
+      1,
+      0
+    ],
+    "trekking": [
+      1,
+      0
+    ],
+    "near": [
+      1,
+      0
+    ],
+    "hills": [
+      1,
+      0
+    ],
+    "join": [
+      2,
+      0
+    ],
+    "us": [
+      1,
+      0
+    ],
+    "can": [
+      3,
+      0
+    ],
+    "teacher": [
+      1,
+      0
+    ],
+    "extend": [
+      1,
+      0
+    ],
+    "deadline": [
+      1,
+      0
+    ],
+    "by": [
+      1,
+      0
+    ],
+    "two": [
+      1,
+      0
+    ],
+    "days": [
+      1,
+      0
+    ],
+    "config": [
+      0,
+      1
+    ],
+    "piece": [
+      0,
+      1
+    ],
+    "of": [
+      1,
+      2
+    ],
+    "junk": [
+      0,
+      1
+    ],
+    "fix": [
+      0,
+      1
+    ],
+    "congrats": [
+      2,
+      0
+    ],
+    "internship": [
+      1,
+      0
+    ],
+    "selection": [
+      1,
+      0
+    ],
+    "good": [
+      2,
+      0
+    ],
+    "morning": [
+      1,
+      0
+    ],
+    "everyone": [
+      3,
+      0
+    ],
+    "have": [
+      2,
+      0
+    ],
+    "productive": [
+      1,
+      0
+    ],
+    "day": [
+      2,
+      0
+    ],
+    "frontend": [
+      1,
+      0
+    ],
+    "looks": [
+      2,
+      0
+    ],
+    "mobile": [
+      1,
+      0
+    ],
+    "we": [
+      1,
+      0
+    ],
+    "move": [
+      1,
+      0
+    ],
+    "class": [
+      1,
+      0
+    ],
+    "new": [
+      1,
+      0
+    ],
+    "here": [
+      2,
+      0
+    ],
+    "introduce": [
+      1,
+      0
+    ],
+    "myself": [
+      1,
+      0
+    ],
+    "people": [
+      0,
+      1
+    ],
+    "from": [
+      0,
+      1
+    ],
+    "that": [
+      1,
+      1
+    ],
+    "state": [
+      0,
+      1
+    ],
+    "all": [
+      0,
+      1
+    ],
+    "criminals": [
+      0,
+      1
+    ],
+    "shut": [
+      0,
+      2
+    ],
+    "up": [
+      0,
+      1
+    ],
+    "bro": [
+      0,
+      1
+    ],
+    "know": [
+      1,
+      1
+    ],
+    "nothing": [
+      0,
+      1
+    ],
+    "results": [
+      1,
+      0
+    ],
+    "out": [
+      2,
+      0
+    ],
+    "absolute": [
+      0,
+      1
+    ],
+    "garbage": [
+      0,
+      1
+    ],
+    "opinion": [
+      0,
+      1
+    ],
+    "as": [
+      0,
+      1
+    ],
+    "always": [
+      0,
+      1
+    ],
+    "print": [
+      1,
+      0
+    ],
+    "hello": [
+      1,
+      0
+    ],
+    "world": [
+      1,
+      0
+    ],
+    "working": [
+      2,
+      0
+    ],
+    "wtf": [
+      0,
+      1
+    ],
+    "rubbish": [
+      0,
+      1
+    ],
+    "update": [
+      0,
+      1
+    ],
+    "playlist": [
+      1,
+      0
+    ],
+    "link": [
+      2,
+      0
+    ],
+    "lofi": [
+      1,
+      0
+    ],
+    "study": [
+      1,
+      0
+    ],
+    "music": [
+      1,
+      0
+    ],
+    "shared": [
+      1,
+      0
+    ],
+    "happy": [
+      2,
+      0
+    ],
+    "birthday": [
+      1,
+      0
+    ],
+    "da": [
+      1,
+      0
+    ],
+    "great": [
+      1,
+      0
+    ],
+    "year": [
+      1,
+      0
+    ],
+    "regex": [
+      1,
+      0
+    ],
+    "feels": [
+      1,
+      0
+    ],
+    "like": [
+      1,
+      0
+    ],
+    "magic": [
+      1,
+      0
+    ],
+    "every": [
+      1,
+      1
+    ],
+    "time": [
+      2,
+      0
+    ],
+    "someone": [
+      1,
+      0
+    ],
+    "edited": [
+      1,
+      0
+    ],
+    "without": [
+      1,
+      0
+    ],
+    "telling": [
+      1,
+      0
+    ],
+    "me": [
+      1,
+      0
+    ],
+    "thanks": [
+      2,
+      0
+    ],
+    "lot": [
+      1,
+      0
+    ],
+    "build": [
+      1,
+      0
+    ],
+    "will": [
+      2,
+      0
+    ],
+    "review": [
+      1,
+      0
+    ],
+    "your": [
+      4,
+      1
+    ],
+    "pr": [
+      1,
+      0
+    ],
+    "after": [
+      2,
+      0
+    ],
+    "lunch": [
+      1,
+      0
+    ],
+    "feedback": [
+      1,
+      0
+    ],
+    "improve": [
+      1,
+      0
+    ],
+    "slides": [
+      1,
+      0
+    ],
+    "complete": [
+      0,
+      1
+    ],
+    "trash": [
+      0,
+      1
+    ],
+    "mouth": [
+      0,
+      1
+    ],
+    "forever": [
+      0,
+      1
+    ],
+    "nice": [
+      1,
+      0
+    ],
+    "meme": [
+      1,
+      0
+    ],
+    "made": [
+      1,
+      0
+    ],
+    "haha": [
+      1,
+      0
+    ],
+    "ur": [
+      0,
+      1
+    ],
+    "stupid": [
+      0,
+      2
+    ],
+    "go": [
+      0,
+      1
+    ],
+    "read": [
+      1,
+      1
+    ],
+    "something": [
+      0,
+      1
+    ],
+    "first": [
+      1,
+      1
+    ],
+    "92": [
+      1,
+      0
+    ],
+    "exam": [
+      2,
+      0
+    ],
+    "share": [
+      4,
+      0
+    ],
+    "json": [
+      1,
+      0
+    ],
+    "format": [
+      1,
+      0
+    ],
+    "correct": [
+      1,
+      0
+    ],
+    "key": [
+      1,
+      0
+    ],
+    "order": [
+      1,
+      0
+    ],
+    "differs": [
+      1,
+      0
+    ],
+    "blog": [
+      1,
+      0
+    ],
+    "explained": [
+      1,
+      0
+    ],
+    "recursion": [
+      1,
+      0
+    ],
+    "clearly": [
+      1,
+      0
+    ],
+    "quick": [
+      1,
+      0
+    ],
+    "question": [
+      1,
+      0
+    ],
+    "about": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "range": [
+      1,
+      0
+    ],
+    "server": [
+      1,
+      0
+    ],
+    "down": [
+      1,
+      0
+    ],
+    "anyone": [
+      1,
+      0
+    ],
+    "else": [
+      1,
+      0
+    ],
+    "facing": [
+      1,
+      0
+    ],
+    "which": [
+      1,
+      0
+    ],
+    "editor": [
+      1,
+      0
+    ],
+    "use": [
+      1,
+      0
+    ],
+    "vim": [
+      1,
+      0
+    ],
+    "vscode": [
+      1,
+      0
+    ],
+    "chart": [
+      1,
+      0
+    ],
+    "labels": [
+      1,
+      0
+    ],
+    "overlapping": [
+      1,
+      0
+    ],
+    "bit": [
+      1,
+      0
+    ],
+    "prefer": [
+      1,
+      0
+    ],
+    "python": [
+      1,
+      0
+    ],
+    "over": [
+      2,
+      0
+    ],
+    "java": [
+      1,
+      0
+    ],
+    "automation": [
+      1,
+      0
+    ],
+    "hackathon": [
+      1,
+      0
+    ],
+    "starts": [
+      1,
+      0
+    ],
+    "friday": [
+      1,
+      0
+    ],
+    "register": [
+      1,
+      0
+    ],
+    "team": [
+      1,
+      0
+    ],
+    "meeting": [
+      1,
+      0
+    ],
+    "at": [
+      1,
+      0
+    ],
+    "8pm": [
+      1,
+      0
+    ],
+    "google": [
+      1,
+      0
+    ],
+    "meet": [
+      1,
+      0
+    ],
+    "syllabus": [
+      1,
+      0
+    ],
+    "uploaded": [
+      1,
+      0
+    ],
+    "drive": [
+      1,
+      0
+    ],
+    "check": [
+      1,
+      0
+    ],
+    "hate": [
+      0,
+      1
+    ],
+    "one": [
+      0,
+      1
+    ],
+    "idiots": [
+      0,
+      1
+    ],
+    "get": [
+      0,
+      1
+    ],
+    "lost": [
+      0,
+      1
+    ],
+    "markdown": [
+      1,
+      0
+    ],
+    "table": [
+      1,
+      0
+    ],
+    "not": [
+      3,
+      0
+    ],
+    "rendering": [
+      1,
+      0
+    ],
+    "preview": [
+      1,
+      0
+    ],
+    "github": [
+      1,
+      0
+    ],
+    "repo": [
+      1,
+      0
+    ],
+    "api": [
+      1,
+      0
+    ],
+    "returns": [
+      1,
+      0
+    ],
+    "200": [
+      1,
+      0
+    ],
+    "empty": [
+      1,
+      0
+    ],
+    "list": [
+      1,
+      0
+    ],
+    "tutorial": [
+      1,
+      0
+    ],
+    "saved": [
+      1,
+      0
+    ],
+    "semester": [
+      1,
+      0
+    ],
+    "pin": [
+      1,
+      0
+    ],
+    "announcement": [
+      1,
+      0
+    ],
+    "group": [
+      1,
+      0
+    ],
+    "notes": [
+      1,
+      0
+    ],
+    "pdf": [
+      1,
+      0
+    ],
+    "works": [
+      1,
+      0
+    ],
+    "why": [
+      1,
+      0
+    ],
+    "readme": [
+      1,
+      0
+    ],
+    "before": [
+      1,
+      0
+    ],
+    "asking": [
+      1,
+      0
+    ],
+    "questions": [
+      1,
+      0
+    ],
+    "docker": [
+      1,
+      0
+    ],
+    "container": [
+      1,
+      0
+    ],
+    "keeps": [
+      1,
+      1
+    ],
+    "restarting": [
+      1,
+      0
+    ],
+    "any": [
+      1,
+      0
+    ],
+    "ideas": [
+      1,
+      0
+    ],
+    "disagree": [
+      1,
+      0
+    ],
+    "respect": [
+      1,
+      0
+    ],
+    "point": [
+      1,
+      0
+    ],
+    "install": [
+      1,
+      0
+    ],
+    "pandas": [
+      1,
+      0
+    ],
+    "windows": [
+      1,
+      0
+    ],
+    "using": [
+      1,
+      0
+    ],
+    "fastapi": [
+      1,
+      0
+    ],
+    "and": [
+      1,
+      1
+    ],
+    "love": [
+      1,
+      0
+    ],
+    "add": [
+      1,
+      0
+    ],
+    "dark": [
+      1,
+      0
+    ],
+    "mode": [
+      1,
+      0
+    ],
+    "website": [
+      1,
+      0
+    ],
+    "annoying": [
+      0,
+      1
+    ],
+    "useless": [
+      0,
+      1
+    ],
+    "model": [
+      1,
+      0
+    ],
+    "accuracy": [
+      1,
+      0
+    ],
+    "low": [
+      1,
+      0
+    ],
+    "validation": [
+      1,
+      0
+    ],
+    "take": [
+      0,
+      1
+    ],
+    "nobody": [
+      0,
+      1
+    ],
+    "asked": [
+      0,
+      1
+    ],
+    "screen": [
+      1,
+      0
+    ],
+    "laptop": [
+      1,
+      0
+    ],
+    "app": [
+      0,
+      1
+    ],
+    "crashing": [
+      0,
+      1
+    ],
+    "coffee": [
+      1,
+      0
+    ],
+    "break": [
+      1,
+      0
+    ],
+    "lets": [
+      1,
+      0
+    ],
+    "continue": [
+      1,
+      0
+    ],
+    "sprint": [
+      1,
+      0
+    ]
+  },
+  "dataset_version": "seed42-edf4350237",
+  "split": {
+    "seed": 42,
+    "train": 70,
+    "validation": 15,
+    "test": 15
+  },
+  "metrics": {
+    "accuracy": 0.8666666666666667,
+    "precision": 0.9285714285714286,
+    "recall": 0.6666666666666666,
+    "f1": 0.7115384615384615
+  },
+  "confusion_matrix": {
+    "labels": [
+      "non_toxic",
+      "toxic"
+    ],
+    "matrix": [
+      [
+        12,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ]
+  },
+  "per_label": {
+    "non_toxic": {
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1": 0.923076923076923,
+      "support": 12
+    },
+    "toxic": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5,
+      "support": 3
+    }
+  },
+  "training_date": "2026-10-06T07:24:32.959809+00:00"
+}

@@ -1,0 +1,32 @@
+id,text,language,language_name,script,toxic,severe_toxic,obscene,threat,insult,identity_hate,source,split
+154,"ಇಂದು ಹವಾಮಾನ ಚೆನ್ನಾಗಿದೆ, ಹೊರಗೆ ಹೋಗೋಣ.",kn,Kannada,Kannada,0,0,0,0,0,0,curated_demo,test
+118,"நான் உன்னை அடிப்பேன், கவனமாக இரு.",ta,Tamil,Tamil,1,0,0,1,0,0,curated_demo,test
+57,battery died mid call sorry I got disconnected,en,English,Latin,0,0,0,0,0,0,demo,test
+111,"You are a fucking idiot, shut up.",en,English,Latin,1,0,1,0,1,0,curated_demo,test
+189,"ਤੂੰ ਇੱਕ ਮੂਰਖ ਹੈਂ, ਮੈਂ ਤੈਨੂੰ ਨਫ਼ਰਤ ਕਰਦਾ ਹਾਂ.",pa,Punjabi,Gurmukhi,1,0,0,0,1,0,curated_demo,test
+170,"आज हवामान छान आहे, बाहेर जाऊया.",mr,Marathi,Devanagari,0,0,0,0,0,0,curated_demo,test
+51,git merge conflict again how do I resolve,en,English,Latin,0,0,0,0,0,0,demo,test
+147,നിങ്ങളുടെ സഹായത്തിന് നന്ദി.,ml,Malayalam,Malayalam,0,0,0,0,0,0,curated_demo,test
+198,میں کل تمہیں ڈھونڈ کر مار ڈالوں گا.,ur,Urdu,Arabic,1,0,0,1,0,1,curated_demo,test
+158,"ನಾನು ನಿನ್ನನ್ನು ಹೊಡೆಯುತ್ತೇನೆ, ಎಚ್ಚರವಾಗಿರು.",kn,Kannada,Kannada,1,0,0,1,0,0,curated_demo,test
+133,"तुम बहुत बेवकूफ हो, मैं तुमसे नफरत करता हूँ.",hi,Hindi,Devanagari,1,0,0,0,1,0,curated_demo,test
+60,someone edited my code without telling me,en,English,Latin,0,0,0,0,0,0,demo,test
+56,please don't push directly to main branch,en,English,Latin,0,0,0,0,0,0,demo,test
+24,your blog explained recursion clearly,en,English,Latin,0,0,0,0,0,0,demo,test
+8,meeting at 8pm on google meet everyone join,en,English,Latin,0,0,0,0,0,0,demo,test
+9,happy birthday da have a great year,en,English,Latin,0,0,0,0,0,0,demo,test
+112,"You are a worthless moron, go to hell.",en,English,Latin,1,0,0,0,1,0,curated_demo,test
+155,ನಿಮ್ಮ ಸಹಾಯಕ್ಕೆ ಧನ್ಯವಾದ.,kn,Kannada,Kannada,0,0,0,0,0,0,curated_demo,test
+23,read the README before asking questions,en,English,Latin,0,0,0,0,0,0,demo,test
+143,"నువ్వు దద్దమ్మ, ఎవరూ నిన్ను ఇష్టపడరు.",te,Telugu,Telugu,1,0,0,0,1,0,curated_demo,test
+177,તમે કેમ છો? હું સારો છું.,gu,Gujarati,Gujarati,0,0,0,0,0,0,curated_demo,test
+27,print hello world working fine here,en,English,Latin,0,0,0,0,0,0,demo,test
+192,"ਤੂੰ ਖਰਾਬ ਬੰਦਾ ਹੈਂ, ਕੋਈ ਤੈਨੂੰ ਪਸਦ ਨਹੀਂ ਕਰਦਾ.",pa,Punjabi,Gurmukhi,1,0,0,0,1,0,curated_demo,test
+36,windows path with backslash giving error,en,English,Latin,0,0,0,0,0,0,demo,test
+58,the font size is small on the dashboard,en,English,Latin,0,0,0,0,0,0,demo,test
+63,docker container keeps restarting any ideas,en,English,Latin,0,0,0,0,0,0,demo,test
+71,library closed early so I am heading home,en,English,Latin,0,0,0,0,0,0,demo,test
+193,آپ کیسے ہیں؟ میں ٹھیک ہوں.,ur,Urdu,Arabic,0,0,0,0,0,0,curated_demo,test
+7,first time using fastapi and I love it,en,English,Latin,0,0,0,0,0,0,demo,test
+29,thanks for replying so fast appreciate it,en,English,Latin,0,0,0,0,0,0,demo,test
+167,"তুমি কুত্তা, নীরব হয়ে যাও.",bn,Bengali,Bengali,1,0,0,0,1,0,curated_demo,test

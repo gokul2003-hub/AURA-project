@@ -1,0 +1,109 @@
+"""Phase 4.17 - session invalidation, authentication telemetry & login throttling.
+
+Run:  python tests_p417_session_and_auth_hardening.py
+
+Isolation
+---------
+* Every test repoints ``backend.DB_PATH`` at a temp file (the pattern from
+  ``tests_audit_threshold_phase41.py``). **The production database is never
+  opened for writing.**
+* ``backend.SESSIONS`` is cleared around each test, so no session leaks between
+  cases and no test can touch a live token.
+* Synthetic accounts and synthetic passwords only. No credential value is
+  printed, stored in a fixture, or asserted as a literal.
+* No network, no dataset, no model, no frozen artifact.
+
+**This suite calls backend functions directly. It never starts the server and
+sends no write-capable HTTP request to the live service.**
+"""
+from __future__ import annotations
+
+import ast
+import os
+import sqlite3
+import sys
+import tempfile
+import unittest
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+BACKEND_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(BACKEND_DIR))
+
+PROD_DB = BACKEND_DIR / "aura.db"
+BACKEND_SRC = BACKEND_DIR / "backend.py"
+
+import backend  # noqa: E402
+from fastapi import HTTPException  # noqa: E402
+
+_STRONG = "synthetic-phase417-cV8nQ4" + os.urandom(3).hex()
+_STRONG_2 = "synthetic-phase417-hT2wY6" + os.urandom(3).hex()
+
+
+class _Isolated(unittest.TestCase):
+    """Temp database + clean SESSIONS for every single test."""
+
+    def setUp(self) -> None:
+        self._dir = tempfile.TemporaryDirectory(prefix="p417-")
+        self.temp_db = Path(self._dir.name) / "synthetic.db"
+        self._saved_path = backend.DB_PATH
+        backend.DB_PATH = self.temp_db
+        backend.SESSIONS.clear()
+        backend.init_db()  # temp file only
+
+    def tearDown(self) -> None:
+        backend.SESSIONS.clear()
+        backend.DB_PATH = self._saved_path
+        self._dir.cleanup()
+
+    # helpers ---------------------------------------------------------------
+    def _seed(self, username, password, role="user", blocked=0):
+        h, s = backend.hash_password(password)
+        c = backend.db()
+        try:
+            c.execute(
+                "INSERT INTO users(username,password_hash,salt,role,blocked,created_at,credential_version)"
+                " VALUES(?,?,?,?,?,?,0)", (username, h, s, role, blocked, backend.now()))
+            c.commit()
+        finally:
+            c.close()
+
+    def _row(self, username):
+        c = backend.db()
+        try:
+            return c.execute(
+                "SELECT id,username,password_hash,salt,role,blocked,credential_version"
+                " FROM users WHERE lower(username)=lower(?)", (username,)).fetchone()
+        finally:
+            c.close()
+
+    def _login(self, username, password, role=None):
+        """Call the login route function directly. Returns (token, None) or (None, (code, detail))."""
+        try:
+            out = backend.login(backend.LoginIn(username=username, password=password, role=role))
+            return out.get("token"), None
+        except HTTPException as exc:
+            return None, (exc.status_code, exc.detail)
+
+    def _auth(self, token):
+        return "Bearer " + str(token)
+
+    def _audit(self, action=None):
+        c = backend.db()
+        try:
+            if action:
+                return c.execute("SELECT action,details FROM audit_logs WHERE action=? ORDER BY id",
+                                 (action,)).fetchall()
+            return c.execute("SELECT action,details FROM audit_logs ORDER BY id").fetchall()
+        finally:
+            c.close()
+
+    def _scalar(self, sql, params=()):
+        c = backend.db()
+        try:
+            return c.execute(sql, params).fetchone()[0]
+        finally:
+            c.close()
+
+
+# __PART2__

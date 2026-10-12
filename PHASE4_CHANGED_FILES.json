@@ -1,0 +1,41 @@
+{
+  "captured_utc": "2026-10-11T04:42:20Z",
+  "method": "SHA-256 comparison against PHASE4_CHECKSUMS.json (workspace is not a git repository)",
+  "scope": "same extension set as the baseline snapshot: .json .py .md .txt .db .bat",
+  "self_excluded": "PHASE4_CHANGED_FILES.json",
+  "baseline_file_count": 85,
+  "unchanged_count": 75,
+  "changed_count": 10,
+  "added_count": 10,
+  "removed_count": 0,
+  "changed": [
+    "CODE/BACKEND/aura.db",
+    "CODE/BACKEND/data/external/import_report.json",
+    "CODE/BACKEND/fetch_external_datasets.py",
+    "CODE/BACKEND/import_external_datasets.py",
+    "CODE/BACKEND/model_adapter.py",
+    "CODE/BACKEND/tests_dataset_import.py",
+    "DATASET_GUIDE.md",
+    "PHASE2_MODEL_EVALUATION.md",
+    "PHASE4_CHECKSUMS.json",
+    "PROJECT_AUDIT_REPORT.md"
+  ],
+  "added": [
+    "CODE/BACKEND/tests_dataset_import_phase4.py",
+    "CODE/BACKEND/tests_model_adapter_phase4.py",
+    "CODE/BACKEND/tests_threshold_immutability.py",
+    "CODE/FRONTEND/tests_e2e_phase4.py",
+    "PHASE4_BASELINE.md",
+    "PHASE4_IMPLEMENTATION_REPORT.md",
+    "PHASE4_VERIFICATION_REPORT.md",
+    "PHASE4_WORKSTREAM_B.md",
+    "PHASE4_WORKSTREAM_C.md",
+    "PHASE4_WORKSTREAM_E.md"
+  ],
+  "removed": [],
+  "protected_artifacts_byte_identical": {
+    "CODE/BACKEND/models/tuned_threshold.json": true,
+    "CODE/BACKEND/models/phase2_benchmark.json": true,
+    "CODE/BACKEND/models/phase3_benchmark.json": true
+  }
+}

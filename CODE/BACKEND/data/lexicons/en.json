@@ -1,0 +1,45 @@
+{
+ "language": "en",
+ "language_name": "English",
+ "script": "Latin",
+ "notes": "Small curated heuristic lexicon (demo/dev quality). Not benchmark data.",
+ "categories": {
+  "toxic": [
+   "i hate you",
+   "you are worthless",
+   "you are garbage",
+   "shut up loser",
+   "go to hell"
+  ],
+  "severe_toxic": [
+   "i will kill you",
+   "i will hurt you badly"
+  ],
+  "obscene": [
+   "fucking idiot",
+   "you are a fucking idiot",
+   "shithead",
+   "asshole",
+   "bastard"
+  ],
+  "threat": [
+   "i will hurt you",
+   "i will find you and hurt you",
+   "watch your back",
+   "i will kill you"
+  ],
+  "insult": [
+   "stupid",
+   "idiot",
+   "useless",
+   "moron",
+   "you are stupid and useless",
+   "worthless loser",
+   "dumb"
+  ],
+  "identity_hate": [
+   "go back to your country",
+   "your people are all the same"
+  ]
+ }
+}

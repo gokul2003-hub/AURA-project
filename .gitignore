@@ -1,0 +1,81 @@
+# ============================================================
+# AURA Comment Toxicity — .gitignore
+# Protects production data, secrets, caches and third-party
+# datasets from being committed or pushed.
+# ============================================================
+
+# --- Production database & backups (NEVER commit) -----------
+# aura.db holds real user accounts, credential hashes, salts,
+# moderation history and audit logs. Backups are full copies.
+aura.db
+aura.db-wal
+aura.db-shm
+aura.db-journal
+*.db
+*.sqlite
+*.sqlite3
+CODE/BACKEND/data/backups/
+
+# --- Secrets & environment ----------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.pfx
+*.p12
+secrets.*
+credentials.*
+
+# --- Environments & caches ----------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# --- Model weight caches (very large binaries) --------------
+CODE/BACKEND/models/hf_cache/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.gguf
+
+# --- Third-party / frozen evaluation datasets ---------------
+# phase2_eval + external are fetched from upstream HF datasets
+# whose provenance review (P1/P2) is still BLOCKING. Frozen
+# ur_test.csv / ur_val.csv must stay byte-identical locally and
+# are excluded from source control by policy.
+CODE/BACKEND/data/phase2_eval/
+CODE/BACKEND/data/external/
+
+# --- Logs & generated artifacts -----------------------------
+*.log
+logs/
+CODE/BACKEND/models/*.log
+
+# --- OS / editor noise --------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*.swo
+*~
+
+# --- NOTE ---------------------------------------------------
+# Hand-written DEMO data (data/raw, data/train, data/validation,
+# data/test, data/multilingual, data/lexicons, data/processed)
+# IS tracked: it is synthetic, authored in-project, and needed
+# for tests. The truncated test stub (*.truncated-*.bak) is
+# tracked deliberately as Phase 4.17 forensic evidence.

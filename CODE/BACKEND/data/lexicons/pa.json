@@ -1,0 +1,32 @@
+{
+ "language": "pa",
+ "language_name": "Punjabi",
+ "script": "Gurmukhi",
+ "notes": "Small curated heuristic lexicon (demo/dev quality). Not benchmark data.",
+ "categories": {
+  "toxic": [
+   "ਮੈਂ ਤੈਨੂੰ ਨਫ਼ਰਤ ਕਰਦਾ ਹਾਂ",
+   "ਤੂੰ ਖਰਾਬ ਹੈਂ"
+  ],
+  "severe_toxic": [
+   "ਮੈਂ ਤੈਨੂੰ ਮਾਰ ਦਾਵਾਂਗਾ"
+  ],
+  "obscene": [
+   "ਗਾਂਡੂ",
+   "ਅਸ਼ਲੀਲ"
+  ],
+  "threat": [
+   "ਮੈਂ ਤੈਨੂੰ ਕੱਲ੍ਹ ਲੱਭ ਕੇ ਮਾਰ ਦਾਵਾਂਗਾ",
+   "ਮਾਰ ਦਾਵਾਂਗਾ"
+  ],
+  "insult": [
+   "ਮੂਰਖ",
+   "ਬੇਅਕਲ",
+   "ਖਰਾਬ ਬੰਦਾ",
+   "ਤੂੰ ਇੱਕ ਮੂਰਖ ਹੈਂ"
+  ],
+  "identity_hate": [
+   "ਤੁਹਾਡੇ ਲੋਕ ਸਭ ਖਰਾਬ ਹਨ"
+  ]
+ }
+}

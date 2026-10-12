@@ -1,0 +1,31 @@
+{
+ "language": "bn",
+ "language_name": "Bengali",
+ "script": "Bengali",
+ "notes": "Small curated heuristic lexicon (demo/dev quality). Not benchmark data.",
+ "categories": {
+  "toxic": [
+   "আমি তোমাকে ঘৃণা করি",
+   "তুমি খারাপ লোক"
+  ],
+  "severe_toxic": [
+   "আমি তোমাকে মারে বসব"
+  ],
+  "obscene": [
+   "হরামজাদা"
+  ],
+  "threat": [
+   "আমি তোমাকে খুঁয়ে পাব",
+   "মারে বসব"
+  ],
+  "insult": [
+   "বোকা",
+   "পাগল",
+   "কুত্তা",
+   "তুমি একজন বোকা"
+  ],
+  "identity_hate": [
+   "তোমার লোকেরা সবাই খারাপ"
+  ]
+ }
+}

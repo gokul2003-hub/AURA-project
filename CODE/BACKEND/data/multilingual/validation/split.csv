@@ -1,0 +1,30 @@
+id,text,language,language_name,script,toxic,severe_toxic,obscene,threat,insult,identity_hate,source,split
+59,share the notes PDF after the lecture,en,English,Latin,0,0,0,0,0,0,demo,validation
+153,ನೀನು ಹೇಗಿದ್ದೀಯಾ? ನಾನು ಚೆನ್ನಾಗಿದ್ದೇನೆ.,kn,Kannada,Kannada,0,0,0,0,0,0,curated_demo,validation
+18,score 3-2 what a match last over six,en,English,Latin,0,0,0,0,0,0,demo,validation
+50,results are out congrats to everyone,en,English,Latin,0,0,0,0,0,0,demo,validation
+93,this config is piece of junk fix it,en,English,Latin,1,0,1,0,0,0,demo,validation
+76,the sample output in the PDF matches mine,en,English,Latin,0,0,0,0,0,0,demo,validation
+145,നിങ്ങൾ എങ്ങനെയാണ്? ഞാൻ നന്നായിരിക്കുന്നു.,ml,Malayalam,Malayalam,0,0,0,0,0,0,curated_demo,validation
+21,coffee break over lets continue the sprint,en,English,Latin,0,0,0,0,0,0,demo,validation
+97,people from that state are all criminals,en,English,Latin,1,0,0,0,0,1,demo,validation
+32,try using a smaller learning rate,en,English,Latin,0,0,0,0,0,0,demo,validation
+141,"నువ్వు ఒక పిచ్చివాడివి, నిన్ను ద్వేషిస్తున్నాను.",te,Telugu,Telugu,1,0,0,0,1,0,curated_demo,validation
+121,nee epdi iruka? naan nalla iruken.,ta-Latn,Tanglish,Latin,0,0,0,0,0,0,curated_demo,validation
+12,naah that library is outdated now,en,English,Latin,0,0,0,0,0,0,demo,validation
+68,please add dark mode to the website,en,English,Latin,0,0,0,0,0,0,demo,validation
+89,crap input as always from you,en,English,Latin,1,0,1,0,1,0,demo,validation
+92,so damn boring lecture today,en,English,Latin,1,0,1,0,0,0,demo,validation
+25,I disagree but I respect your point,en,English,Latin,0,0,0,0,0,0,demo,validation
+98,those folks are disgusting and should leave,en,English,Latin,1,0,0,0,0,1,demo,validation
+183,"તું ખરાબ માણસ છે, ચૂપ થઈ જા.",gu,Gujarati,Gujarati,1,0,0,0,1,0,curated_demo,validation
+191,"ਤੂੰ ਬੇਅਕਲ ਹੈਂ, ਚੁੱਪ ਹੋ ਜਾ.",pa,Punjabi,Gurmukhi,1,0,0,0,1,0,curated_demo,validation
+87,nobody likes you in this group,en,English,Latin,1,0,0,0,1,0,demo,validation
+182,હું તને આવતીકાલે શોધીને મારી નાખીશ.,gu,Gujarati,Gujarati,1,0,0,1,0,1,curated_demo,validation
+40,quick question about index out of range error,en,English,Latin,0,0,0,0,0,0,demo,validation
+169,"नमस्ते, तुम्ही कसे आहात? मी छान आहे.",mr,Marathi,Devanagari,0,0,0,0,0,0,curated_demo,validation
+88,wtf is this rubbish update,en,English,Latin,1,0,1,0,0,0,demo,validation
+186,"ਅੱਜ ਮੌਸਮ ਚੰਗਾ ਹੈ, ਬਾਹਰ ਚਲਦੇ ਹਾਂ.",pa,Punjabi,Gurmukhi,0,0,0,0,0,0,curated_demo,validation
+41,server is down again anyone else facing this,en,English,Latin,0,0,0,0,0,0,demo,validation
+2,this worked for my project also,en,English,Latin,0,0,0,0,0,0,demo,validation
+72,these flashcards help me revise faster,en,English,Latin,0,0,0,0,0,0,demo,validation

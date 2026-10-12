@@ -1,0 +1,32 @@
+{
+ "language": "ta",
+ "language_name": "Tamil",
+ "script": "Tamil",
+ "notes": "Small curated heuristic lexicon (demo/dev quality). Not benchmark data.",
+ "categories": {
+  "toxic": [
+   "உன்னை வெறுக்கிறேன்",
+   "நீ மோசமானவன்"
+  ],
+  "severe_toxic": [
+   "நான் உன்னை கொல்லப்போகிறேன்"
+  ],
+  "obscene": [
+   "பொறுக்கி",
+   "ஒழுக்கமே இல்லை"
+  ],
+  "threat": [
+   "நான் உன்னை அடிப்பேன்",
+   "உன்னை அடிப்பேன்"
+  ],
+  "insult": [
+   "முட்டாள்",
+   "பைத்தியம்",
+   "நீ ஒரு முட்டாள்",
+   "நீ பொறுக்கி"
+  ],
+  "identity_hate": [
+   "உன் இனத்தவர் எல்லாம் மோசமானவர்கள்"
+  ]
+ }
+}

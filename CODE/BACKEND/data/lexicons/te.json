@@ -1,0 +1,32 @@
+{
+ "language": "te",
+ "language_name": "Telugu",
+ "script": "Telugu",
+ "notes": "Small curated heuristic lexicon (demo/dev quality). Not benchmark data.",
+ "categories": {
+  "toxic": [
+   "నిన్ను ద్వేషిస్తున్నాను",
+   "నువ్వు చెడ్డవాడివి"
+  ],
+  "severe_toxic": [
+   "నేను నిన్ను చంపేస్తాను"
+  ],
+  "obscene": [
+   "దొంగ",
+   "అసభ్యం"
+  ],
+  "threat": [
+   "నేను నిన్ను కొడతాను",
+   "నిన్ను కొడతాను"
+  ],
+  "insult": [
+   "పిచ్చివాడివి",
+   "దద్దమ్మ",
+   "వెంగలి",
+   "నువ్వు ఒక పిచ్చివాడివి"
+  ],
+  "identity_hate": [
+   "నీ జాతివారంతా చెడ్డవారు"
+  ]
+ }
+}

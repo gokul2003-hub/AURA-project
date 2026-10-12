@@ -1,0 +1,111 @@
+{
+  "threshold": 0.35,
+  "per_language": {
+    "en": 0.55,
+    "ta": 0.4,
+    "ta-Latn": 0.3,
+    "hi": 0.35,
+    "bn": 0.3,
+    "ur": 0.4
+  },
+  "rationale": "sweep 0.30..0.80 step 0.05 on POOLED validation splits of all 6 language groups (n=695) + per-language sweeps from each group's validation split; selection = max toxic F1 subject to validation FPR <= 0.15 (tie-break: higher threshold); test split never touched",
+  "detail": {
+    "val_rows": 695,
+    "per_group": {
+      "en": 120,
+      "ta": 120,
+      "ta-Latn": 120,
+      "hi": 120,
+      "bn": 95,
+      "ur": 120
+    },
+    "sweep": {
+      "0.3": {
+        "toxic_f1": 0.6801,
+        "toxic_recall": 0.606,
+        "toxic_precision": 0.7748,
+        "fpr": 0.1639
+      },
+      "0.35": {
+        "toxic_f1": 0.6585,
+        "toxic_recall": 0.5612,
+        "toxic_precision": 0.7966,
+        "fpr": 0.1333,
+        "selected": true
+      },
+      "0.4": {
+        "toxic_f1": 0.6113,
+        "toxic_recall": 0.4836,
+        "toxic_precision": 0.8308,
+        "fpr": 0.0917
+      },
+      "0.45": {
+        "toxic_f1": 0.5339,
+        "toxic_recall": 0.3881,
+        "toxic_precision": 0.8553,
+        "fpr": 0.0611
+      },
+      "0.5": {
+        "toxic_f1": 0.4747,
+        "toxic_recall": 0.3224,
+        "toxic_precision": 0.9,
+        "fpr": 0.0333
+      },
+      "0.55": {
+        "toxic_f1": 0.4276,
+        "toxic_recall": 0.2776,
+        "toxic_precision": 0.93,
+        "fpr": 0.0194
+      },
+      "0.6": {
+        "toxic_f1": 0.3711,
+        "toxic_recall": 0.2299,
+        "toxic_precision": 0.9625,
+        "fpr": 0.0083
+      },
+      "0.65": {
+        "toxic_f1": 0.2901,
+        "toxic_recall": 0.1701,
+        "toxic_precision": 0.9828,
+        "fpr": 0.0028
+      },
+      "0.7": {
+        "toxic_f1": 0.2454,
+        "toxic_recall": 0.1403,
+        "toxic_precision": 0.9792,
+        "fpr": 0.0028
+      },
+      "0.75": {
+        "toxic_f1": 0.2128,
+        "toxic_recall": 0.1194,
+        "toxic_precision": 0.9756,
+        "fpr": 0.0028
+      },
+      "0.8": {
+        "toxic_f1": 0.1887,
+        "toxic_recall": 0.1045,
+        "toxic_precision": 0.9722,
+        "fpr": 0.0028
+      }
+    },
+    "selection_rule": "max toxic F1 with val FPR <= 0.15",
+    "fpr_cap": 0.15,
+    "per_language": {
+      "en": 0.55,
+      "ta": 0.4,
+      "ta-Latn": 0.3,
+      "hi": 0.35,
+      "bn": 0.3,
+      "ur": 0.4
+    },
+    "per_language_rule": {
+      "en": "max toxic F1 with val FPR <= 0.15",
+      "ta": "max toxic F1 with val FPR <= 0.15",
+      "ta-Latn": "max toxic F1 with val FPR <= 0.15",
+      "hi": "max toxic F1 with val FPR <= 0.15",
+      "bn": "max toxic F1 with val FPR <= 0.15",
+      "ur": "max toxic F1 with val FPR <= 0.15"
+    }
+  },
+  "tuned_at": "2026-10-09T16:57:48"
+}

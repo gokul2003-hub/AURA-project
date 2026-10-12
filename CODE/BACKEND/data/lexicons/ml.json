@@ -1,0 +1,32 @@
+{
+ "language": "ml",
+ "language_name": "Malayalam",
+ "script": "Malayalam",
+ "notes": "Small curated heuristic lexicon (demo/dev quality). Not benchmark data.",
+ "categories": {
+  "toxic": [
+   "നിന്നെ വെറുക്കുന്നു",
+   "നീ ചീത്തയാണ്"
+  ],
+  "severe_toxic": [
+   "ഞാൻ നിന്നെ കൊല്ലും"
+  ],
+  "obscene": [
+   "പൊറുക്കി",
+   "അശ്ലീലം"
+  ],
+  "threat": [
+   "ഞാൻ നിന്നെ അടിക്കും",
+   "നിന്നെ അടിക്കും"
+  ],
+  "insult": [
+   "വിഡ്ഢി",
+   "പൊട്ടൻ",
+   "കാപ്പിരി",
+   "നീ ഒരു വിഡ്ഢിയാണ്"
+  ],
+  "identity_hate": [
+   "നിന്റെ ജാതിക്കാരെല്ലാം മോശമാണ്"
+  ]
+ }
+}

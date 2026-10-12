@@ -1,0 +1,32 @@
+{
+ "language": "gu",
+ "language_name": "Gujarati",
+ "script": "Gujarati",
+ "notes": "Small curated heuristic lexicon (demo/dev quality). Not benchmark data.",
+ "categories": {
+  "toxic": [
+   "હું તને નફરત કરું છું",
+   "તું ખરાબ છે"
+  ],
+  "severe_toxic": [
+   "હું તને મારી નાખીશ"
+  ],
+  "obscene": [
+   "ગાંડો",
+   "અશ્લીલ"
+  ],
+  "threat": [
+   "હું તને આવતીકાલે શોધીને મારી નાખીશ",
+   "મારી નાખીશ"
+  ],
+  "insult": [
+   "મૂર્ખ",
+   "નાલાયક",
+   "ખરાબ માણસ",
+   "તું એક મૂર્ખ છે"
+  ],
+  "identity_hate": [
+   "તમારા લોકો બધા ખરાબ છે"
+  ]
+ }
+}

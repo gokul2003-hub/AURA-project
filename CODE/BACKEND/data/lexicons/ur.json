@@ -1,0 +1,32 @@
+{
+ "language": "ur",
+ "language_name": "Urdu",
+ "script": "Arabic",
+ "notes": "Small curated heuristic lexicon (demo/dev quality). Not benchmark data.",
+ "categories": {
+  "toxic": [
+   "میں تم سے نفرت کرتا ہوں",
+   "تم خراب ہو"
+  ],
+  "severe_toxic": [
+   "میں تمہیں مار دوں گا"
+  ],
+  "obscene": [
+   "ہارامی",
+   "گندی بات"
+  ],
+  "threat": [
+   "میں کل تمہیں ڈھونڈ کر مار ڈالوں گا",
+   "مار ڈالوں گا"
+  ],
+  "insult": [
+   "بیوقوف",
+   "وابرن",
+   "خراب آدمی",
+   "تم ایک بیوقوف ہو"
+  ],
+  "identity_hate": [
+   "تمہارے لوگ سب خراب ہیں"
+  ]
+ }
+}

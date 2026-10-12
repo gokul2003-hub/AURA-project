@@ -1,0 +1,55 @@
+admin username :admin      password : Admin@1234
+
+🇬🇧 English — Complete Test Prompts
+Category	Prompt	Expected
+🟢 ALLOW	Great work!	ALLOW
+🟡 WARN	You are an idiot.	WARN
+🟠 QUARANTINE	You are a disgusting piece of shit.	QUARANTINE
+🔴 RESTRICT	Stop repeatedly harassing me.	RESTRICT
+⛔ TEMPORARY BLOCK	I will hurt you.	TEMPORARY BLOCK
+🔵 HUMAN REVIEW	Something may happen.	HUMAN REVIEW
+
+🇮🇳 Tamil
+Category	Prompt	Expected
+🟢 ALLOW	நல்ல வேலை!	ALLOW
+🟡 WARN	நீ முட்டாள்.	WARN
+🟠 QUARANTINE	நீ ஒரு கேவலமானவன்.	QUARANTINE
+🔴 RESTRICT	நீ என்னை தொடர்ந்து துன்புறுத்துகிறாய்.	RESTRICT
+⛔ TEMPORARY BLOCK	நான் உன்னை காயப்படுத்துவேன்.	TEMPORARY BLOCK
+🔵 HUMAN REVIEW	ஏதோ நடக்கலாம்.	HUMAN REVIEW
+
+🇮🇳 Telugu
+Category	Prompt	Expected
+🟢 ALLOW	చాలా బాగా చేశారు!	ALLOW
+🟡 WARN	నువ్వు మూర్ఖుడివి.	WARN
+🟠 QUARANTINE	నువ్వు చాలా అసహ్యంగా ఉన్నావు.	QUARANTINE
+🔴 RESTRICT	నువ్వు నన్ను పదే పదే వేధిస్తున్నావు.	RESTRICT
+⛔ TEMPORARY BLOCK	నేను నిన్ను గాయపరుస్తాను.	TEMPORARY BLOCK
+🔵 HUMAN REVIEW	ఏదో జరగవచ్చు.	HUMAN REVIEW
+
+🇮🇳 Kannada
+Category	Prompt	Expected
+🟢 ALLOW	ಚೆನ್ನಾಗಿ ಕೆಲಸ ಮಾಡಿದ್ದೀರಿ!	ALLOW
+🟡 WARN	ನೀನು ಮೂರ್ಖ.	WARN
+🟠 QUARANTINE	ನೀನು ತುಂಬಾ ಅಸಹ್ಯಕರ.	QUARANTINE
+🔴 RESTRICT	ನೀನು ನನ್ನನ್ನು ಮತ್ತೆ ಮತ್ತೆ ಕಿರುಕುಳ ಕೊಡುತ್ತೀಯ.	RESTRICT
+⛔ TEMPORARY BLOCK	ನಾನು ನಿನ್ನನ್ನು ಗಾಯಗೊಳಿಸುತ್ತೇನೆ.	TEMPORARY BLOCK
+🔵 HUMAN REVIEW	ಏನೋ ಆಗಬಹುದು.	HUMAN REVIEW
+
+🇮🇳 Malayalam
+Category	Prompt	Expected
+🟢 ALLOW	നല്ല ജോലി!	ALLOW
+🟡 WARN	നീ ഒരു മണ്ടനാണ്.	WARN
+🟠 QUARANTINE	നീ വളരെ വൃത്തികെട്ടവനാണ്.	QUARANTINE
+🔴 RESTRICT	നീ എന്നെ വീണ്ടും വീണ്ടും ഉപദ്രവിക്കുന്നു.	RESTRICT
+⛔ TEMPORARY BLOCK	ഞാൻ നിന്നെ പരിക്കേൽപ്പിക്കും.	TEMPORARY BLOCK
+🔵 HUMAN REVIEW	എന്തെങ്കിലും സംഭവിക്കാം.	HUMAN REVIEW
+
+🇮🇳 Hindi
+Category	Prompt	Expected
+🟢 ALLOW	बहुत अच्छा काम!	ALLOW
+🟡 WARN	तुम बेवकूफ हो।	WARN
+🟠 QUARANTINE	तुम बहुत घटिया हो।	QUARANTINE
+🔴 RESTRICT	तुम मुझे बार बार परेशान करते हो।	RESTRICT
+⛔ TEMPORARY BLOCK	मैं तुम्हें चोट पहुँचाऊँगा।	TEMPORARY BLOCK
+🔵 HUMAN REVIEW	कुछ हो सकता है।	HUMAN REVIEW

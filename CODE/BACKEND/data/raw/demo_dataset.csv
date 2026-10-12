@@ -1,0 +1,101 @@
+comment,toxic,severe_toxic,obscene,threat,insult,identity_hate,source
+super explanation da thanks,0,0,0,0,0,0,demo
+this worked for my project also,0,0,0,0,0,0,demo
+can you share the github repo link,0,0,0,0,0,0,demo
+bro the output is wrong check line 42,0,0,0,0,0,0,demo
+nice UI the purple theme looks clean,0,0,0,0,0,0,demo
+how do I install pandas on windows,0,0,0,0,0,0,demo
+first time using fastapi and I love it,0,0,0,0,0,0,demo
+meeting at 8pm on google meet everyone join,0,0,0,0,0,0,demo
+happy birthday da have a great year,0,0,0,0,0,0,demo
+the docs are confusing but the code is fine,0,0,0,0,0,0,demo
+please explain the split ratio again,0,0,0,0,0,0,demo
+naah that library is outdated now,0,0,0,0,0,0,demo
+I got 92 in the exam happy to share,0,0,0,0,0,0,demo
+add more test cases for the API,0,0,0,0,0,0,demo
+deploy pannala nu theriyala can anyone help,0,0,0,0,0,0,demo
+error while importing sqlite3 pls help,0,0,0,0,0,0,demo
+this tutorial saved my semester project,0,0,0,0,0,0,demo
+score 3-2 what a match last over six,0,0,0,0,0,0,demo
+which editor do you use vim or vscode,0,0,0,0,0,0,demo
+the model accuracy looks low on validation,0,0,0,0,0,0,demo
+coffee break over lets continue the sprint,0,0,0,0,0,0,demo
+can we move the class to tomorrow,0,0,0,0,0,0,demo
+read the README before asking questions,0,0,0,0,0,0,demo
+your blog explained recursion clearly,0,0,0,0,0,0,demo
+I disagree but I respect your point,0,0,0,0,0,0,demo
+link is broken please update the docs,0,0,0,0,0,0,demo
+print hello world working fine here,0,0,0,0,0,0,demo
+is this the same dataset from kaggle,0,0,0,0,0,0,demo
+thanks for replying so fast appreciate it,0,0,0,0,0,0,demo
+lunch time bye guys see you after one hour,0,0,0,0,0,0,demo
+the frontend looks good on mobile also,0,0,0,0,0,0,demo
+try using a smaller learning rate,0,0,0,0,0,0,demo
+I am new here how do I introduce myself,0,0,0,0,0,0,demo
+playlist link for lofi study music shared,0,0,0,0,0,0,demo
+exam syllabus uploaded to the drive check,0,0,0,0,0,0,demo
+windows path with backslash giving error,0,0,0,0,0,0,demo
+json format is correct but key order differs,0,0,0,0,0,0,demo
+good morning everyone have a productive day,0,0,0,0,0,0,demo
+please pin the announcement in the group,0,0,0,0,0,0,demo
+quick question about index out of range error,0,0,0,0,0,0,demo
+server is down again anyone else facing this,0,0,0,0,0,0,demo
+I fixed the bug it was a missing return statement,0,0,0,0,0,0,demo
+who wants to pair program on the assignment,0,0,0,0,0,0,demo
+screen share not working on my laptop,0,0,0,0,0,0,demo
+thanks for the feedback I will improve the slides,0,0,0,0,0,0,demo
+weekend plans trekking near the hills join us,0,0,0,0,0,0,demo
+markdown table not rendering in the preview,0,0,0,0,0,0,demo
+this regex feels like magic every time,0,0,0,0,0,0,demo
+can teacher extend the deadline by two days,0,0,0,0,0,0,demo
+results are out congrats to everyone,0,0,0,0,0,0,demo
+git merge conflict again how do I resolve,0,0,0,0,0,0,demo
+the API returns 200 but empty list,0,0,0,0,0,0,demo
+nice meme that made my day haha,0,0,0,0,0,0,demo
+unit tests pass locally but fail on CI,0,0,0,0,0,0,demo
+reading the docs for numpy right now,0,0,0,0,0,0,demo
+please don't push directly to main branch,0,0,0,0,0,0,demo
+battery died mid call sorry I got disconnected,0,0,0,0,0,0,demo
+the font size is small on the dashboard,0,0,0,0,0,0,demo
+share the notes PDF after the lecture,0,0,0,0,0,0,demo
+someone edited my code without telling me,0,0,0,0,0,0,demo
+hackathon starts on friday register your team,0,0,0,0,0,0,demo
+I prefer python over java for automation,0,0,0,0,0,0,demo
+docker container keeps restarting any ideas,0,0,0,0,0,0,demo
+thanks a lot this fixed my build error,0,0,0,0,0,0,demo
+queue implementation using linked list done,0,0,0,0,0,0,demo
+is the lab tomorrow or is it cancelled,0,0,0,0,0,0,demo
+the chart labels are overlapping a bit,0,0,0,0,0,0,demo
+please add dark mode to the website,0,0,0,0,0,0,demo
+my code works but I do not know why,0,0,0,0,0,0,demo
+found the typo in the question paper,0,0,0,0,0,0,demo
+library closed early so I am heading home,0,0,0,0,0,0,demo
+these flashcards help me revise faster,0,0,0,0,0,0,demo
+wifi in the lab is slow today,0,0,0,0,0,0,demo
+what does the seed value change exactly,0,0,0,0,0,0,demo
+I will review your PR after lunch,0,0,0,0,0,0,demo
+the sample output in the PDF matches mine,0,0,0,0,0,0,demo
+congrats on the internship selection,0,0,0,0,0,0,demo
+shall we start the group discussion now,0,0,0,0,0,0,demo
+you are such an idiot lol,1,0,0,0,1,0,demo
+stupid take nobody asked you,1,0,0,0,1,0,demo
+shut up bro you know nothing,1,0,0,0,1,0,demo
+what a dumb comment honestly,1,0,0,0,1,0,demo
+you are annoying and useless,1,0,0,0,1,0,demo
+absolute garbage opinion as always,1,0,0,0,1,0,demo
+clown take tbh go outside,1,0,0,0,1,0,demo
+ur stupid go read something first,1,0,0,0,1,0,demo
+nobody likes you in this group,1,0,0,0,1,0,demo
+wtf is this rubbish update,1,0,1,0,0,0,demo
+crap input as always from you,1,0,1,0,1,0,demo
+hell of a bad release honestly,1,0,1,0,0,0,demo
+damn this app keeps crashing,1,0,1,0,0,0,demo
+so damn boring lecture today,1,0,1,0,0,0,demo
+this config is piece of junk fix it,1,0,1,0,0,0,demo
+I will find you and break your phone,1,0,0,1,0,0,demo
+watch your back at school bro,1,0,0,1,0,0,demo
+come to the ground and see what happens,1,0,0,1,0,0,demo
+people from that state are all criminals,1,0,0,0,0,1,demo
+those folks are disgusting and should leave,1,0,0,0,0,1,demo
+you are complete trash shut your mouth forever,1,1,0,0,1,0,demo
+I hate every one of you idiots get lost,1,1,0,0,1,0,demo

@@ -1,0 +1,49 @@
+id,text,language,language_name,script,toxic,severe_toxic,obscene,threat,insult,identity_hate,source,split
+1,"Hello, how are you today?",en,English,Latin,0,0,0,0,0,0,curated_demo,train
+2,"The weather is nice today, let us go for a walk.",en,English,Latin,0,0,0,0,0,0,curated_demo,train
+3,Thank you for your help with the project.,en,English,Latin,0,0,0,0,0,0,curated_demo,train
+4,"Hello friends, have a great day.",en,English,Latin,0,0,0,0,0,0,curated_demo,train
+9,நீ எப்படி இருக்கிறாய்? நன்றாக இருக்கிறேன்.,ta,Tamil,Tamil,0,0,0,0,0,0,curated_demo,train
+10,"இன்று வானிலை நன்றாக உள்ளது, வெளியே செல்லலாம்.",ta,Tamil,Tamil,0,0,0,0,0,0,curated_demo,train
+11,உங்கள் உதவிக்கு நன்றி.,ta,Tamil,Tamil,0,0,0,0,0,0,curated_demo,train
+12,"நண்பர்களே, அனைவரும் நல்லபடியாக இருக்கிறீர்களா?",ta,Tamil,Tamil,0,0,0,0,0,0,curated_demo,train
+17,nee epdi iruka? naan nalla iruken.,ta-Latn,Tanglish,Latin,0,0,0,0,0,0,curated_demo,train
+18,"iniku veyil nalla irukku, velila poidalam.",ta-Latn,Tanglish,Latin,0,0,0,0,0,0,curated_demo,train
+19,unga udaviku nandri.,ta-Latn,Tanglish,Latin,0,0,0,0,0,0,curated_demo,train
+20,"nanbargale, ellarum nalla irukkingala?",ta-Latn,Tanglish,Latin,0,0,0,0,0,0,curated_demo,train
+25,"नमस्ते, आप कैसे हैं?",hi,Hindi,Devanagari,0,0,0,0,0,0,curated_demo,train
+26,"आज मौसम अच्छा है, चलो बाहर चलते हैं.",hi,Hindi,Devanagari,0,0,0,0,0,0,curated_demo,train
+27,आपकी मदद के लिए धन्यवाद.,hi,Hindi,Devanagari,0,0,0,0,0,0,curated_demo,train
+28,"दोस्तों, सब लोग कैसे हैं?",hi,Hindi,Devanagari,0,0,0,0,0,0,curated_demo,train
+33,నువ్వు ఎలా ఉన్నావు? నేను బాగున్నాను.,te,Telugu,Telugu,0,0,0,0,0,0,curated_demo,train
+34,"ఈరోజు వాతావరణం బాగుంది, బయటకు వెళ్దాం.",te,Telugu,Telugu,0,0,0,0,0,0,curated_demo,train
+35,మీ సహాయానికి ధన్యవాదాలు.,te,Telugu,Telugu,0,0,0,0,0,0,curated_demo,train
+36,"స్నేహితులారా, అందరూ ఎలా ఉన్నారు?",te,Telugu,Telugu,0,0,0,0,0,0,curated_demo,train
+41,നിങ്ങൾ എങ്ങനെയാണ്? ഞാൻ നന്നായിരിക്കുന്നു.,ml,Malayalam,Malayalam,0,0,0,0,0,0,curated_demo,train
+42,"ഇന്ന് കാലാവസ്ഥ നല്ലതാണ്, പുറത്തിറങ്ങാം.",ml,Malayalam,Malayalam,0,0,0,0,0,0,curated_demo,train
+43,നിങ്ങളുടെ സഹായത്തിന് നന്ദി.,ml,Malayalam,Malayalam,0,0,0,0,0,0,curated_demo,train
+44,"സുഹൃത്തുക്കളേ, എല്ലാവരും സുഖമാണോ?",ml,Malayalam,Malayalam,0,0,0,0,0,0,curated_demo,train
+49,ನೀನು ಹೇಗಿದ್ದೀಯಾ? ನಾನು ಚೆನ್ನಾಗಿದ್ದೇನೆ.,kn,Kannada,Kannada,0,0,0,0,0,0,curated_demo,train
+50,"ಇಂದು ಹವಾಮಾನ ಚೆನ್ನಾಗಿದೆ, ಹೊರಗೆ ಹೋಗೋಣ.",kn,Kannada,Kannada,0,0,0,0,0,0,curated_demo,train
+51,ನಿಮ್ಮ ಸಹಾಯಕ್ಕೆ ಧನ್ಯವಾದ.,kn,Kannada,Kannada,0,0,0,0,0,0,curated_demo,train
+52,"ಸ್ನೇಹಿತರೇ, ಎಲ್ಲರೂ ಹೇಗಿದ್ದೀರಾ?",kn,Kannada,Kannada,0,0,0,0,0,0,curated_demo,train
+57,আপনি কেমন আছেন? আমি ভালো আছি.,bn,Bengali,Bengali,0,0,0,0,0,0,curated_demo,train
+58,"আজ আবহাও ভালো, বাইরে যাওয়া যাবে.",bn,Bengali,Bengali,0,0,0,0,0,0,curated_demo,train
+59,আপনার সাহায্যের জন্য ধন্যবাদ.,bn,Bengali,Bengali,0,0,0,0,0,0,curated_demo,train
+60,"বন্ধুরা, সবাই কেমন আছো?",bn,Bengali,Bengali,0,0,0,0,0,0,curated_demo,train
+65,"नमस्ते, तुम्ही कसे आहात? मी छान आहे.",mr,Marathi,Devanagari,0,0,0,0,0,0,curated_demo,train
+66,"आज हवामान छान आहे, बाहेर जाऊया.",mr,Marathi,Devanagari,0,0,0,0,0,0,curated_demo,train
+67,तुमच्या मदतीबद्दल धन्यवाद.,mr,Marathi,Devanagari,0,0,0,0,0,0,curated_demo,train
+68,"मित्रांनो, सर्व कसे आहात?",mr,Marathi,Devanagari,0,0,0,0,0,0,curated_demo,train
+73,તમે કેમ છો? હું સારો છું.,gu,Gujarati,Gujarati,0,0,0,0,0,0,curated_demo,train
+74,"આજે હવામાન સારું છે, બહાર જઈએ.",gu,Gujarati,Gujarati,0,0,0,0,0,0,curated_demo,train
+75,તમારી મદદ માટે આભાર.,gu,Gujarati,Gujarati,0,0,0,0,0,0,curated_demo,train
+76,"મિત્રો, બધા કેમ છો?",gu,Gujarati,Gujarati,0,0,0,0,0,0,curated_demo,train
+81,ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ? ਮੈਂ ਠੀਕ ਹਾਂ.,pa,Punjabi,Gurmukhi,0,0,0,0,0,0,curated_demo,train
+82,"ਅੱਜ ਮੌਸਮ ਚੰਗਾ ਹੈ, ਬਾਹਰ ਚਲਦੇ ਹਾਂ.",pa,Punjabi,Gurmukhi,0,0,0,0,0,0,curated_demo,train
+83,ਤੁਹਾਡੀ ਮਦਦ ਲਈ ਧੰਨਵਾਦ.,pa,Punjabi,Gurmukhi,0,0,0,0,0,0,curated_demo,train
+84,"ਦੋਸਤੋ, ਸਭ ਕਿਵੇਂ ਹੋ?",pa,Punjabi,Gurmukhi,0,0,0,0,0,0,curated_demo,train
+89,آپ کیسے ہیں؟ میں ٹھیک ہوں.,ur,Urdu,Arabic,0,0,0,0,0,0,curated_demo,train
+90,آج موسم اچھا ہے، باہر چلتے ہیں.,ur,Urdu,Arabic,0,0,0,0,0,0,curated_demo,train
+91,آپ کی مدد کا شکریہ.,ur,Urdu,Arabic,0,0,0,0,0,0,curated_demo,train
+92,دوستو، سب کیسے ہیں؟,ur,Urdu,Arabic,0,0,0,0,0,0,curated_demo,train

@@ -1,0 +1,8 @@
+{
+  "seed": 42,
+  "train": 137,
+  "validation": 29,
+  "test": 31,
+  "total_rows": 197,
+  "created_at": "2026-10-06T13:48:07.306661+00:00"
+}

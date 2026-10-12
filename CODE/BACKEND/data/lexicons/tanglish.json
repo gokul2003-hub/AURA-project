@@ -1,0 +1,33 @@
+{
+ "language": "ta-Latn",
+ "language_name": "Tanglish",
+ "script": "Latin",
+ "notes": "Small curated heuristic lexicon (demo/dev quality). Not benchmark data.",
+ "categories": {
+  "toxic": [
+   "unnai verukkiren",
+   "nee mudhalai"
+  ],
+  "severe_toxic": [
+   "naan unnai kolla poren"
+  ],
+  "obscene": [
+   "pazhu thaai",
+   "ozhukkame illa"
+  ],
+  "threat": [
+   "naan unnai adippen",
+   "unnai adippen"
+  ],
+  "insult": [
+   "mudhalai",
+   "kuppa payyan",
+   "koothi",
+   "sani",
+   "nee kuppa payyan"
+  ],
+  "identity_hate": [
+   "ungal jathimundayum kettavargal"
+  ]
+ }
+}

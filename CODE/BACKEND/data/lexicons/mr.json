@@ -1,0 +1,33 @@
+{
+ "language": "mr",
+ "language_name": "Marathi",
+ "script": "Devanagari",
+ "notes": "Small curated heuristic lexicon (demo/dev quality). Not benchmark data.",
+ "categories": {
+  "toxic": [
+   "मी तुला नफरत करतो",
+   "तू वाईट आहेस"
+  ],
+  "severe_toxic": [
+   "मी तुला मारीन"
+  ],
+  "obscene": [
+   "गांडू",
+   "अश्लील"
+  ],
+  "threat": [
+   "मी तुला उद्या शोधून मारीन",
+   "मारीन",
+   "तुझी खैर नाही"
+  ],
+  "insult": [
+   "मूर्ख",
+   "वाईट माणूस",
+   "कायमचीगैरसमजूत",
+   "तू एक मूर्ख आहेस"
+  ],
+  "identity_hate": [
+   "तुमच्या लोकांना सगळे वाईट आहेत"
+  ]
+ }
+}

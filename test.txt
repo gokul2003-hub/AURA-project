@@ -1,0 +1,65 @@
+'toxic':[
+  # English
+  'idiot','moron','dumb','stupid','shut up','useless','trash','garbage','loser','fool','jerk','clown','pathetic',
+  # Tamil + Tanglish
+  'பைத்தியம்','முட்டாள்','மூடன்','அறிவில்லாத','உபயோகமில்லை','வேஸ்ட்','கேவலமானவன்','கேவலமானவள்','கேவலமான ஆள்','அசிங்கமானவன்','அசிங்கமானவள்','கிறுக்கன்','முட்டாள்தனமாக',
+  'paithiyam','muttal','muttal','moodan','arivillatha','use illa','useless','kevalamanavan','kevalamana aal','asingamanavan','asingamanaval','kirukkan',
+  # Telugu + Tenglish
+  'పిచ్చివాడు','పిచ్చిదానివి','మూర్ఖుడు','వెధవ','దరిద్రుడు','నీచుడు','పిచ్చి','వెధవా','వెధవుడు',
+  'pichivadu','pichhodu','murkhudu','vedhava','daridrudu','nichudu','vedhavodini',
+  # Kannada + Kanglish
+  'ಹುಚ್ಚ','ಮೂರ್ಖ','ದಡ್ಡ','ಬೇವಕೂಫ್','ಕೆಟ್ಟವನು','ನೀಚ','ಹುಚ್ಚನ',
+  'huchcha','moorkha','dadda','bevakuf','kettavanu','neech','huchchan',
+  # Malayalam + Manglish
+  'ഭ്രാന്തൻ','മണ്ടൻ','മണ്ടി','വിഡ്ഢി','നീചൻ','വൃത്തികെട്ടവൻ','പൊട്ടൻ',
+  'bhranthan','mandan','mandi','viddhi','neechan','vrithikettavan','pottan',
+  # Hindi + Hinglish
+  'बेवकूफ','मूर्ख','गधा','पागल','निकम्मा','नालायक','घटिया','बदतमीज',
+  'bewakoof','bewaqoof','moorkh','gadha','pagal','nikamma','nalayak','ghatiya','badtameez',
+  # Bengali + Banglish
+  'বোকা','মূর্খ','গাধা','পাগল','অযোগ্য','নিকম্মা','জঘন্য','অসভ্য',
+  'boka','murkho','gadha','pagol','ojoggo','nikamma','joghonyo','oshobbo'
+ ],
+ 'severe_toxic':[
+  'kill yourself','die','go die','suicide','சாக','செத்துப் போ','சாவு','உன்னை சாக','saagu','seththu po','savu',
+  'చచ్చిపో','చావు','నువ్వు చచ్చిపో','chachipo','chavu',
+  'ಸಾಯು','ಸತ್ತು ಹೋಗು','saayu','sattu hogu',
+  'ചാവൂ','ചത്തുപോ','chaavu','chathupo',
+  'मर जा','मर जाओ','आत्महत्या','mar ja','mar jao','aatmahatya',
+  'মরে যাও','মর','আত্মহত্যা','more jao','mor','atmohotya'
+ ],
+obscene':[
+  'fuck','fucking','shit','bastard','asshole','what the fuck','damn',
+  'புண்டை','தேவடியா','ஒழி','கேவலம்','போய் தொலை','போய்த்தொலை','மயிர்','மைரு','பொறுக்கி',
+  'pundai','thevadiya','ozhi','kevalam','po tholai','poy tholai',
+  'దరిద్రం','దెంగు','దెంగ','దెంగేయ్','చెత్త','వెధవ','daridram','dengu','denga','chetta',
+  'ಕೊಳಕು','ಕೆಟ್ಟ ಪದ','ಹೋಗು','ನಾಯಿ','kolaku','kettu pada','hogu',
+  'പന്നി','പന്നിയാണ്','തെറി','അശ്ലീലം','മൈര്','മൈരേ','myre','panni','theri','ashleelam',
+  'भाड़ में जाओ','गाली','बकवास','भोसड़ी','चूत','गंदी गाली','fuck you','bhaad mein jao','gaali','bakwaas','bhosdi','choot',
+  'চোদ','চোদা','গালি','নোংরা','বাজে কথা','জঘন্য গালি','chod','gali','nongra','baje kotha'
+ ],
+ 'threat':[
+  'i will find you','i will hurt you',"i'll hurt you",'hurt you','kill you','i will kill',"i'll kill",'beat you','attack you','you will regret',"you'll regret",'find you and hurt',
+  'உன்னை கண்டுபிடித்து','உன்னை காயப்படுத்துவேன்','கொன்று விடுவேன்','உன்னை கொல்வேன்','தாக்குவேன்','அடிப்பேன்','காயப்படுத்துவேன்',
+  'unnai kandupidiththu','unnai kaayapaduththuven','unnai kolven','kondru viduven','thaakkuven','adippen','kaayapaduththuven',
+  'నిన్ను కనుక్కొని','నిన్ను చంపుతాను','నిన్ను కొడతాను','నిన్ను గాయపరుస్తాను','దాడి చేస్తాను',
+  'ninnu kanukkoni','ninnu champuthanu','ninnu kodathanu','ninnu gayaparusthanu','dadi chestanu',
+  'ನಿನ್ನನ್ನು ಹುಡುಕಿ','ನಿನ್ನನ್ನು ಕೊಲ್ಲುತ್ತೇನೆ','ನಿನ್ನನ್ನು ಹೊಡೆಯುತ್ತೇನೆ','ನಿನ್ನನ್ನು ಗಾಯಗೊಳಿಸುತ್ತೇನೆ','ದಾಳಿ ಮಾಡುತ್ತೇನೆ',
+  'ninnannu huduki','ninnannu kolluttene','ninnannu hodeyuttene','ninnannu gayagolisuttene','daali maduttene',
+  'നിന്നെ കണ്ടെത്തി','നിന്നെ കൊല്ലും','നിന്നെ അടിക്കും','നിന്നെ ഉപദ്രവിക്കും',
+  'ninne kandethi','ninne kollum','ninne adikkum','ninne upadravikkum',
+  'मैं तुम्हें ढूंढूंगा','मैं तुम्हें मार दूंगा','तुम्हें चोट पहुंचाऊंगा','तुम्हें पीटूंगा','तुम पर हमला करूंगा',
+  'main tumhe dhundhunga','main tumhe maar dunga','tumhe chot pahuchaunga','tumhe peetunga','tum par hamla karunga',
+  'আমি তোমাকে খুঁজে বের করব','আমি তোমাকে মেরে ফেলব','আমি তোমাকে আঘাত করব','তোমাকে মারব',
+  'ami tomake khuje ber korbo','ami tomake mere felbo','ami tomake aghat korbo','tomake marbo'
+ ],
+ 'insult':[
+  'idiot','stupid','moron','loser','fool','dumb','jerk','clown','pathetic','asshole',
+  'முட்டாள்','மூடன்','அறிவில்லாத','கேவலமானவன்','அசிங்கமானவன்','முட்டாள்தனமாக','முட்டாளே',
+  'muttal','moodan','arivillatha','kevalamanavan','asingamanavan','muttale',
+  'వెధవ','మూర్ఖుడు','పిచ్చివాడు','దద్దమ్మ','vedhava','murkhudu','pichivadu','daddamma',
+  'ದಡ್ಡ','ಮೂರ್ಖ','ಹುಚ್ಚ','ಬೇವಕೂಫ್','dadda','moorkha','huchcha','bevakuf',
+  'മണ്ടൻ','വിഡ്ഢി','ഭ്രാന്തൻ','പൊട്ടൻ','mandan','viddhi','bhranthan','pottan',
+  'बेवकूफ','मूर्ख','गधा','पागल','नालायक','बदतमीज','bewakoof','moorkh','gadha','pagal','nalayak','badtameez',
+  'বোকা','মূর্খ','গাধা','পাগল','অসভ্য','boka','murkho','gadha','pagol','oshobbo'
+ ],
